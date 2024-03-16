@@ -13,9 +13,8 @@ function App() {
           {/* <Header /> */}
           {/* <ScrollToTop /> */}
           <Outlet />
-
-          <Footer />
         </main>
+        <Footer />
       </div>
     </>
   );

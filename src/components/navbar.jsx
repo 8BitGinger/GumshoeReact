@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import { MenuItem, Menu, Icon } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 
+function playSound() {
+  const sound = new Audio('src/assets/audio/dramatic.mp3');
+  sound.volume = 0.1;
+  sound.play();
+}
+
 export default class Navbar extends Component {
   state = {};
 
@@ -12,61 +18,71 @@ export default class Navbar extends Component {
 
     return (
       <nav>
-        <Menu inverted className="navbar">
-          {/* <img className="float" alt="rocket ship" src={logo}></img> */}
+        <section>
+          <Menu inverted className="navbar">
+            {/* <img className="float" alt="rocket ship" src={logo}></img> */}
 
-          <div className="nav-links">
-            <MenuItem
-              name="home"
-              active={activeItem === 'home'}
-              onClick={this.handleItemClick}
-              as={Link}
-              to="/home"
-            >
-              <Icon className="nav-link" name="home" />
-            </MenuItem>
-            <MenuItem
-              name="player"
-              active={activeItem === 'player'}
-              onClick={this.handleItemClick}
-              as={Link}
-              to="/player"
-            >
-              <Icon className="nav-link" name="male" />
-            </MenuItem>
+            <div className="nav-links">
+              <MenuItem
+                name="home"
+                className="test"
+                active={[activeItem === 'home', playSound()]}
+                onClick={this.handleItemClick}
+                as={Link}
+                to="/home"
+              >
+                <p className="tray-item">Home</p>
+                <Icon className="nav-link" name="home" />
+              </MenuItem>
+              <MenuItem
+                name="player"
+                active={activeItem === 'player'}
+                onClick={this.handleItemClick}
+                as={Link}
+                to="/player"
+              >
+                <p className="tray-item">Players</p>
 
-            <MenuItem
-              name="storyTeller"
-              active={activeItem === 'storyTeller'}
-              onClick={this.handleItemClick}
-              as={Link}
-              to="/storyTeller"
-            >
-              <Icon className="nav-link" name="book" />
-            </MenuItem>
-            <MenuItem
-              name="neonCity"
-              active={activeItem === 'neonCity'}
-              onClick={this.handleItemClick}
-              as={Link}
-              to="/neonCity"
-            >
-              {' '}
-              <Icon className="nav-link" name="map" />
-            </MenuItem>
+                <Icon className="nav-link" name="male" />
+              </MenuItem>
 
-            <MenuItem
-              name="contact"
-              active={activeItem === 'contact'}
-              onClick={this.handleItemClick}
-              as={Link}
-              to="/contact"
-            >
-              {' '}
-              <Icon className="nav-link" name="mail" />
-            </MenuItem>
-          </div>
-        </Menu>
+              <MenuItem
+                name="storyTeller"
+                active={activeItem === 'storyTeller'}
+                onClick={this.handleItemClick}
+                as={Link}
+                to="/storyTeller"
+              >
+                <p className="tray-item">StoryTellers</p>
+
+                <Icon className="nav-link" name="book" />
+              </MenuItem>
+              <MenuItem
+                name="neonCity"
+                active={activeItem === 'neonCity'}
+                onClick={this.handleItemClick}
+                as={Link}
+                to="/neonCity"
+              >
+                <p className="tray-item">Neon City</p>
+
+                <Icon className="nav-link" name="map" />
+              </MenuItem>
+
+              <MenuItem
+                name="contact"
+                active={activeItem === 'contact'}
+                onClick={this.handleItemClick}
+                as={Link}
+                to="/contact"
+              >
+                <p className="tray-item">Contact</p>
+
+                <Icon className="nav-link" name="mail" />
+              </MenuItem>
+            </div>
+          </Menu>
+        </section>
       </nav>
     );
   }

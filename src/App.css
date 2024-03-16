@@ -353,7 +353,26 @@ article img {
 }
 
 .item {
-  font-size: 25px;
+  font-size: 45px;
+  padding: 5px !important;
+  text-align: center;
+}
+
+.item:hover {
+  background-color: rgb(68, 10, 10) !important;
+  color: white;
+  scale: 1.1;
+  transition: ease-in-out 0.5s;
+}
+
+.tray-item {
+  font-size: 10px;
+  margin: auto;
+  display: none;
+}
+
+.tray-item:active {
+  display: block;
 }
 
 .container-photo {
@@ -362,6 +381,10 @@ article img {
   position: relative;
   overflow: hidden;
   margin: 0;
+}
+
+.item:active {
+  background-color: rgb(145, 31, 31) !important;
 }
 
 .container-photo2 {
@@ -426,11 +449,15 @@ article img {
   position: fixed;
   bottom: 0;
   left: 0;
-  font-size: 50px;
+
   cursor: pointer;
   margin-bottom: 20px;
   margin-right: 10px;
   z-index: 2;
+}
+
+.mute img {
+  width: 150px;
 }
 
 .column {
@@ -438,6 +465,18 @@ article img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.column p {
+  font-size: 22px;
+  text-align: center;
+  margin: 10px;
+  color: black;
+}
+
+.column img {
+  max-height: 400px;
+  margin: 0px 15px;
 }
 
 .instructions a {
@@ -561,7 +600,7 @@ article img {
   max-width: 100%;
 }
 .dev-text a:hover {
-  color: black !important;
+  color: rgb(255, 254, 254) !important;
 }
 
 .reverse {
@@ -573,6 +612,10 @@ article img {
   align-content: center;
   text-align: center;
   align-items: center;
+}
+
+.icon2 {
+  font-size: 40px;
 }
 
 .round img {
@@ -739,17 +782,20 @@ select {
   display: flex;
   flex-direction: column;
   text-align: center;
-  max-width: 60%;
+  width: 70%;
+  max-width: 800px;
   justify-content: center;
   align-items: center;
   color: white;
   font-size: 20px;
   border-radius: 12px;
+  padding-bottom: 50px;
 }
 
 .dev-text img {
   width: 50%;
   max-height: 450px;
+  max-width: 450px;
   margin: auto;
 }
 
@@ -872,6 +918,8 @@ select {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
+  margin: auto;
 }
 
 .welcome h4 {
@@ -883,6 +931,7 @@ select {
   max-height: 200px;
   border-radius: 50%;
   opacity: 0.8;
+  margin: 0px;
 }
 
 .left-headline,
@@ -901,6 +950,9 @@ select {
   border: 2px solid black;
   margin-top: 35px;
   padding: 15px;
+  font-size: 20px;
+  padding-top: 30px;
+  background-color: rgba(255, 255, 255, 0.423);
 }
 
 .headline-title {
@@ -1011,6 +1063,7 @@ select {
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  max-width: 860px;
 }
 
 .col2 img {
@@ -1077,9 +1130,9 @@ select {
 .menu {
   position: fixed;
   right: 0;
-  top: 25%;
+  bottom: 0;
 
-  z-index: 2;
+  z-index: 4;
 
   background-color: transparent !important;
   width: fit-content !important;
@@ -1087,9 +1140,9 @@ select {
 
 .nav-links {
   display: flex;
-  background-color: rgba(70, 50, 18, 0.619);
   flex-direction: column;
   width: fit-content;
+  background-color: rgba(0, 0, 0, 0.493);
 }
 
 .left,
@@ -1236,12 +1289,20 @@ select {
   scale: 1.1;
 }
 
+.dev-text a {
+  font-size: 50px;
+}
+
 .container {
   position: relative;
 }
 
 .form {
   overflow: hidden;
+}
+
+.spacer {
+  margin-bottom: 80px;
 }
 
 .overlay3 {
@@ -1422,10 +1483,25 @@ select {
     flex-direction: column;
   }
 
+  .item {
+    font-size: 40px;
+    margin: auto;
+  }
+
+  .tray-item {
+    display: none;
+  }
+
   .dev-text {
     max-width: 80%;
     margin: auto;
     justify-content: center;
+    font-size: 18px;
+  }
+
+  .dev-text p {
+    font-size: 22px;
+    padding: 0;
   }
 
   .dice {
@@ -1456,6 +1532,7 @@ select {
 
   .column {
     flex-direction: column;
+    font-size: 25px;
   }
 
   .role {
@@ -1559,6 +1636,10 @@ select {
     margin: 10px auto;
   }
 
+  .welcome {
+    margin-left: 0;
+  }
+
   .class li {
     font-size: 25px;
   }
@@ -1586,6 +1667,7 @@ select {
 
   .headline {
     max-width: 100%;
+    font-size: 25px;
   }
 
   .clue {
@@ -1664,10 +1746,6 @@ select {
     background: none;
   }
 
-  .dev-text {
-    margin-bottom: 20px;
-  }
-
   .develop h3 {
     font-size: 20px;
     -webkit-text-stroke: 0px;
@@ -1698,13 +1776,34 @@ select {
     text-align: center;
     justify-self: center;
     min-width: 350px;
+    margin-top: 80px !important;
+  }
+
+  .spacer {
+    margin-bottom: 60px;
   }
 
   .menu {
-    display: none;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+    height: 80px;
+    min-width: 100%;
+    justify-content: space-evenly;
   }
 
   .nav-links {
-    display: none;
+    padding-left: 3px;
+    bottom: auto;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .icon {
+    font-size: 50px;
+  }
+
+  .starter {
+    margin-top: 80px !important;
   }
 }
