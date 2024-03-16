@@ -1,21 +1,22 @@
 import './App.css';
-// import Header from './component/Header';
-// import Footer from './component/Footer';
+import Footer from './components/footer';
 import { Outlet } from 'react-router-dom';
 // import ScrollToTop from './component/ScrollToTop';
+import Navbar from './components/navbar';
 
 function App() {
   return (
     <>
-      <main className="page-container">
-        {/* <Header /> */}
-        {/* <ScrollToTop /> */}
-        <div className="container overlay">
+      <div className="backer">
+        <Navbar />
+        <main className="page-container">
+          {/* <Header /> */}
+          {/* <ScrollToTop /> */}
           <Outlet />
-        </div>
 
-        {/* <Footer /> */}
-      </main>
+          <Footer />
+        </main>
+      </div>
     </>
   );
 }
