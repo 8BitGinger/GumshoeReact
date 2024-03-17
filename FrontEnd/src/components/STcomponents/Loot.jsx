@@ -20,25 +20,24 @@ const Loot = () => {
           <br />
           <span className="underline">Combat</span>
           <br />
-          10 Luck Points <br />
-          --- XP (based on enemy difficulty)
+          ☘ 10 Luck Points <br />
+          ⚄ XP (based on enemy difficulty)
           <br />
-          ⚅ 1D4 Clues Token(20 needed for free clue) <br />
-          --- 1 D6 dollars
+          ＄ 1 D6 dollars
           <br />
           <span className="underline">Clues</span>
           <br />
-          --- 25 Luck Points
+          ☘ 25 Luck Points
           <br />
-          --- 100 XP
+          ⚄ 100 XP
           <br />
           <span className="underline">Missions</span>
           <br />
-          --- 50 Luck Points
+          ☘ 50 Luck Points
           <br />
-          --- 250 XP
+          ⚄ 250 XP
+          <br />＄ 2 D10 Dollars 🖑 (4 needed to unlock Part of the Mystery)
           <br />
-          --- 2 D10 Dollars
         </p>
       </article>
     </section>

@@ -8,8 +8,8 @@ const charSheetBreak = () => {
       <div className="card">
         <ul className="stripe card2">
           <li>
-            HP - Hit Points. When taking damage you remove the total from you
-            Total HP. When this drops to -10 you meet your end.
+            HP - Hit Points. When taking damage you remove the total from your
+            Total HP. <br></br>When this drops to -10 you meet your end.
           </li>
           <li>
             XP - Experience Points are earned by completing missions, defeating
@@ -20,8 +20,8 @@ const charSheetBreak = () => {
             solving clues. You can spend these points and add them to your luck
             roll.
             <br />
-            - Every 10 Luck Points apply a +1 to Percent Roll.
-            <br />- A player can spend 100 Luck points to re-roll an unfavorable
+            ● Every 10 Luck Points apply a +1 to Percent Roll.
+            <br />● A player can spend 100 Luck points to re-roll an unfavorable
             roll.
           </li>
 

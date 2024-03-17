@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { MenuItem, Menu, Icon } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
-import { useSound } from 'use-sound';
 
 export default class Navbar extends Component {
   state = {};
@@ -23,14 +22,14 @@ export default class Navbar extends Component {
             <div className="nav-links">
               <MenuItem
                 name="home"
-                className="test"
+                className="nav-link"
                 active={activeItem === 'home'}
                 onClick={this.handleItemClick}
                 as={Link}
                 to="/home"
               >
                 <p className="tray-item">Home</p>
-                <Icon className="nav-link" name="home" />
+                <Icon name="home" />
               </MenuItem>
               <MenuItem
                 name="player"
