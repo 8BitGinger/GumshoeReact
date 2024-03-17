@@ -1,6 +1,8 @@
 import React from 'react';
 
 const Contact = () => {
+  window.scrollTo(0, 0);
+
   return (
     <div>
       <h1>Contact</h1>

@@ -34,6 +34,12 @@ article img {
   font-family: 'Abril Fatface', cursive;
 }
 
+.card h4 {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
 .btn2,
 .btn3 {
   background-color: rgba(231, 231, 197, 0.917);
@@ -133,7 +139,7 @@ article img {
   font: bold;
 
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -279,6 +285,7 @@ article img {
   width: 50vw;
   margin: 20px auto;
   padding: 6px;
+  font-family: 'newsreader', serif;
 }
 
 .container article {
@@ -468,7 +475,7 @@ article img {
 }
 
 .column p {
-  font-size: 22px;
+  font-size: 24px;
   text-align: center;
   margin: 10px;
   color: black;
@@ -574,8 +581,7 @@ article img {
   text-align: center;
 }
 
-.avatar img,
-.clue ul img {
+.avatar img {
   max-width: 50%;
 
   margin: 10px;
@@ -594,10 +600,11 @@ article img {
   margin-bottom: 20px;
 }
 
-.clue ul img {
-  margin: 10px 0px;
-
-  max-width: 100%;
+.clue img {
+  margin: 10px auto;
+  max-height: 350px;
+  width: 100%;
+  opacity: 0.5;
 }
 .dev-text a:hover {
   color: rgb(255, 254, 254) !important;
@@ -1077,12 +1084,19 @@ select {
   scale: 1.1;
 }
 
+.stripe ul {
+  margin-left: -15px;
+  width: 100%;
+}
+
 .stripe li {
   background-color: rgba(148, 142, 118, 0.428);
   margin: 10px;
   padding: 10px;
   border-radius: 5px;
   font-size: 25px;
+  list-style: none;
+  margin-left: -20px;
 }
 
 .stripe li:hover {
@@ -1093,6 +1107,7 @@ select {
 
 .dice img {
   max-width: 100%;
+  margin: auto;
 }
 
 .dice img:hover {
@@ -1192,7 +1207,6 @@ select {
   background-size: contain;
   background-repeat: no-repeat;
   transition: animation 0.5s ease-in-out;
-  overflow: auto;
 }
 
 .row3 {
@@ -1263,9 +1277,9 @@ select {
   scale: 1.1;
 }
 
-.footsteps {
-  max-width: 90%;
+.footsteps img {
   margin: auto;
+  width: 100%;
 }
 
 .re-direct a {
@@ -1308,17 +1322,17 @@ select {
 .overlay3 {
   background-color: rgba(91, 86, 69, 0.854);
   height: 100%;
-  max-height: 550px;
+  max-height: 400px;
   width: 100%;
   position: absolute;
   margin: auto;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   text-align: center;
-  margin-top: 25px;
+
   font-family: 'abril fatface', cursive;
 }
 
@@ -1333,8 +1347,12 @@ select {
 
 .diced {
   position: absolute;
-  width: 250px;
+  max-width: 250px;
   animation: skew-reverse 3s linear infinite;
+}
+
+.diced img {
+  max-width: 100%;
 }
 
 @keyframes spin {
