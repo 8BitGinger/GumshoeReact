@@ -39,28 +39,28 @@ const Skill = () => {
               <br />
               ● Athletics - For physical or acrobat manuevers
               <br />
+              ● Deception - Your ability to lie
+              <br />
+              ● Diplomacy - Your ability to negotiate
+              <br />
+              ● Driving - Your ability to pull off stunts
+              <br />
+              ● Forgery - Your ability to create fake documents
+              <br />
               ● Intimidation - Intimidate Target
-              <br />
-              ● Persuasion - Persuade Target
-              <br />
-              ● Sleight of Hand - Steal Item / Hide Item
-              <br />
-              ● Perception - Your ability to notice things
               <br />
               ● Investigation - Your ability to find clues
               <br />
               ● Medical - Your ability to heal wounds
               <br />
-              ● Driving - Your ability to pull off stunts
-              <br />
-              ● Deception - Your ability to lie
-              <br />
-              ● Diplomacy - Your ability to negotiate
-              <br />
-              ● Forgery - Your ability to create fake documents
+              ● Perception - Your ability to notice things
               <br />
               ● Performance - Your ability to entertain
-              <br />● Seduction - Your ability to seduce
+              <br />
+              ● Persuasion - Persuade Target
+              <br />
+              ● Seduction - Your ability to seduce
+              <br />● Sleight of Hand - Steal Item / Hide Item
             </p>
           </div>
         </div>

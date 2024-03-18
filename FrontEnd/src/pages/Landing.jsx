@@ -7,7 +7,7 @@ const Landing = () => {
     <>
       <header className="header" id="landing">
         <Link to="/home">
-          <Spline scene="https://prod.spline.design/B2594CfoW6lHGm19/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/BfM7yoUC3C3vMheS/scene.splinecode" />
         </Link>
       </header>
     </>
