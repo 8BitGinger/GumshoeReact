@@ -56,7 +56,7 @@ const DevCard = () => {
             >
               <Icon name="linkedin"></Icon>
             </a>
-            <a target="_blank" href="https://twitter.com/fanninthevan">
+            <a target="_blank" href="https://twitter.com/the8BitGinger">
               <Icon name="twitter"></Icon>
             </a>
           </div>
