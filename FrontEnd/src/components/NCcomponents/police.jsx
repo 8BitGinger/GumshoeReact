@@ -1,6 +1,6 @@
 const police = () => {
   return (
-    <section className="container">
+    <section className="container" id="police">
       <div>
         <h2>The Neon City Police:</h2>
 

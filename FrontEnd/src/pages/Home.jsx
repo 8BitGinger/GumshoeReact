@@ -22,10 +22,10 @@ const Home = () => {
             src="src/assets/images/document-logo-sepia2.png"
             alt="logo"
           />
+
           <br />
           <br />
-          <br />
-          <span>Neon City </span>
+          <span className="bring-forward">Neon City </span>
 
           <span className="date">☆☆☆ June 6, 1936 ☆☆☆</span>
         </h1>

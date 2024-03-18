@@ -19,7 +19,7 @@ const clues = () => {
         <img src="src/assets/images/audience.jpg" alt="group of citizens" />
       </article>
 
-      <article className="card column italic">
+      <article className="card column ">
         <p>
           Because in the end, the thrill of the chase is half the fun. Just make
           sure they have enough moonlight to follow the trail, but not enough to
@@ -50,13 +50,13 @@ const clues = () => {
           Discovering Clues is based on a Percentile 2 D10 or 1 D100 Roll +
           Investigation Skill Bonus&apos;:
           <br />
-          ● Unmissable Clue - 0 - 25%
+          🖑 Unmissable Clue - 0 - 25%
           <br />
-          ● Easy Clue - 26 - 50%
+          🖑 Easy Clue - 26 - 50%
           <br />
-          ● Moderate Clue - 51 - 75%
+          🖑 Moderate Clue - 51 - 75%
           <br />
-          ● Hard Clue - 76 - 100%
+          🖑 Hard Clue - 76 - 100%
           <br />
           Don&apos;t forget the Red Herring. Red Herrings are clues specifically
           designed to point the player in the WRONG direction. They can be fun

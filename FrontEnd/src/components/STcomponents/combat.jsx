@@ -1,4 +1,3 @@
-import React from 'react';
 import AttackDefense from './AttackDefense';
 import Criticals from './Criticals';
 import DeathInjury from './DeathInjury';
@@ -32,14 +31,6 @@ const combat = () => {
       <DeathInjury />
       <Loot />
       <StatTemplate />
-
-      <div className="btn-holder">
-        <a href="#top">
-          <button id="topBtn" className="btn btn2">
-            Back to Top
-          </button>
-        </a>
-      </div>
     </section>
   );
 };

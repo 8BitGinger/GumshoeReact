@@ -3,7 +3,7 @@ import React from 'react';
 const penrose = () => {
   return (
     <div>
-      <section className="container">
+      <section className="container" id="penrose">
         <h2>The Penrose Division:</h2>
 
         <article className="card column">

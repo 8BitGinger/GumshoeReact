@@ -58,16 +58,6 @@ export default class Navbar extends Component {
               >
                 <Icon className="nav-link" name="map" />
               </MenuItem>
-
-              <MenuItem
-                name="contact"
-                active={activeItem === 'contact'}
-                onClick={this.handleItemClick}
-                as={Link}
-                to="/contact"
-              >
-                <Icon className="nav-link" name="mail" />
-              </MenuItem>
             </div>
           </Menu>
         </aside>

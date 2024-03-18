@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ufo = () => {
   return (
-    <section>
+    <section className="container">
       <h2>Out of this World Ending!:</h2>
 
       <article className="card column">

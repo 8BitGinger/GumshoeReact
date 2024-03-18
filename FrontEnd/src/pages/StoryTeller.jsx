@@ -7,6 +7,7 @@ import NeonCity from '../components/STcomponents/neonRedirect.jsx';
 import Ufo from '../components/STcomponents/Ufo';
 import FutureAdventure from '../components/STcomponents/FutureAdventure';
 import stDownlooads from '../components/STcomponents/stDownloads';
+import Back2Top from '../components/Back2Top';
 
 const StoryTeller = () => {
   window.scrollTo(0, 0);
@@ -23,28 +24,21 @@ const StoryTeller = () => {
             />
             Story Tellers
           </h1>
-
           <Npc />
-
+          <Back2Top />
           <Clues />
-
+          <Back2Top />
           <Combat />
-
+          <Back2Top />
           <Gameplay />
+          <Back2Top />
           <NeonCity />
-
+          <Back2Top />
           <Ufo />
-
-          <stDownlooads />
-
+          <stDownloads />
+          <Back2Top />
           <FutureAdventure />
-          <div className="btn-holder">
-            <a href="#top">
-              <button id="topBtn" className="btn btn2">
-                Back to Top
-              </button>
-            </a>
-          </div>
+          <Back2Top />
         </section>
       </div>
     </>
