@@ -43,8 +43,8 @@ const Player = () => {
 
         <article className="column avatar">
           <p>
-            The backstory will help the player understand the character&apos;s
-            motivations and goals. It will also help the player understand the
+            The backstory will help you understand the character&apos;s
+            motivations and goals. It will also help you understand the
             character&apos;s place in the world, and how they fit into the story
             of the game. Work with your Story Teller to come up with a backstory
             that works with within his Adventure and the world of Gumshoe.
