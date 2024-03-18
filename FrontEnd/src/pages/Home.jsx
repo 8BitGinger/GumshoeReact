@@ -10,6 +10,7 @@ import HowToPlay from '../components/HowToPlay';
 import GraphicBanner from '../components/GraphicBanner';
 import Players from '../components/Players';
 import StoryTellers from '../components/STs';
+import Footer from '../components/footer';
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
       <StoryTellers />
       <Downloads />
       <DevCard />
+      <Footer />
     </div>
   );
 };

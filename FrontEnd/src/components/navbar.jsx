@@ -28,7 +28,6 @@ export default class Navbar extends Component {
                 as={Link}
                 to="/home"
               >
-                <p className="tray-item">Home</p>
                 <Icon name="home" />
               </MenuItem>
               <MenuItem
@@ -38,8 +37,6 @@ export default class Navbar extends Component {
                 as={Link}
                 to="/player"
               >
-                <p className="tray-item">Players</p>
-
                 <Icon className="nav-link" name="male" />
               </MenuItem>
 
@@ -50,8 +47,6 @@ export default class Navbar extends Component {
                 as={Link}
                 to="/storyTeller"
               >
-                <p className="tray-item">StoryTellers</p>
-
                 <Icon className="nav-link" name="book" />
               </MenuItem>
               <MenuItem
@@ -61,8 +56,6 @@ export default class Navbar extends Component {
                 as={Link}
                 to="/neonCity"
               >
-                <p className="tray-item">Neon City</p>
-
                 <Icon className="nav-link" name="map" />
               </MenuItem>
 
@@ -73,8 +66,6 @@ export default class Navbar extends Component {
                 as={Link}
                 to="/contact"
               >
-                <p className="tray-item">Contact</p>
-
                 <Icon className="nav-link" name="mail" />
               </MenuItem>
             </div>

@@ -23,6 +23,14 @@ const Ufo = () => {
         </p>
         <img src="src/assets/images/mystery.jpg" alt="alien in fedora" />
       </article>
+
+      <div className="btn-holder">
+        <a href="#top">
+          <button id="topBtn" className="btn btn2">
+            Back to Top
+          </button>
+        </a>
+      </div>
     </section>
   );
 };

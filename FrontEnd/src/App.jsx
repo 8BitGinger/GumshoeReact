@@ -1,5 +1,4 @@
 import './App.css';
-import Footer from './components/footer';
 import { Outlet } from 'react-router-dom';
 // import ScrollToTop from './component/ScrollToTop';
 import Navbar from './components/navbar';
@@ -14,7 +13,6 @@ function App() {
           {/* <ScrollToTop /> */}
           <Outlet />
         </main>
-        <Footer />
       </div>
     </>
   );

@@ -18,9 +18,9 @@ const CreativeActions = () => {
           <br />
           ⚔ Attack Roll for Shot
           <br />
-          ● Perception Check for Banner
+          👁 Perception Check for Banner
           <br />
-          ● Intelligence Check to calculate the distance and so on
+          ℹ Intelligence Check to calculate the distance and so on
           <br />
         </p>
       </article>
@@ -30,7 +30,8 @@ const CreativeActions = () => {
         The difficulty value will be determined by Story Teller on a 1-100
         scale.
         <br />
-        ● 1-10 Being very easy ● 100 being nearly impossible ●
+        ● 1-10 Being very easy <br />
+        ● 100 being nearly impossible
         <br />
         So if you decide it&apos;s fairly difficult and assign a value of 75.
         Then player would roll their Percent Dice (2D10 or 1D100) and any of

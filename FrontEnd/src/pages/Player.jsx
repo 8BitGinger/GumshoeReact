@@ -5,6 +5,7 @@ import CheatSheet from '../components/Pcomponents/cheatSheet';
 import CharSheetBreak from '../components/Pcomponents/charSheetBreak';
 import CharBuilder from '../components/Pcomponents/characterBuilder';
 import Downloads from '../components//Pcomponents/downloads';
+import Footer from '../components/footer';
 
 const Player = () => {
   window.scrollTo(0, 0);
@@ -31,12 +32,12 @@ const Player = () => {
           <p>
             Gumshoe is a detective game set in a neon-noir city. The game is
             designed to be played by friends cooperatively as a TTRPG. In order
-            to fully immerse the players in the world of Gumshoe, we first need
-            to create a character for them to play. This character will be the
-            player&apos;s avatar in the game, and will be used to interact with
-            the world and other characters. The character will have a name, a
-            backstory, and a className that provides a set of skills and items
-            that will help them solve the case.
+            to fully immerse yourself in the world of Gumshoe, we first need to
+            create a character for you to play. This character will be the your
+            avatar in the game, and will be used to interact with the world and
+            other characters. Your character will need a name, a backstory, and
+            a class that provides a set of skills and items that will help them
+            solve the case.
           </p>
         </article>
 
@@ -61,6 +62,7 @@ const Player = () => {
         <CharSheetBreak />
         <CharBuilder />
         <Downloads />
+        <Footer />
       </section>
     </div>
   );
