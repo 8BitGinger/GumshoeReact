@@ -566,7 +566,10 @@ article img {
   border: 1px solid black;
   width: 30%;
   padding: 10px;
-  background-color: rgba(254, 254, 234, 0.917);
+  background: radial-gradient(
+    rgba(245, 246, 237, 0.874),
+    rgba(203, 203, 172, 0.874)
+  );
 }
 
 .class:hover {
@@ -584,6 +587,13 @@ article img {
 
 .create {
   position: relative;
+}
+
+.play-me {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .stat li {
