@@ -6,8 +6,8 @@ import Gameplay from '../components/STcomponents/Gameplay';
 import NeonCity from '../components/STcomponents/neonRedirect.jsx';
 import Ufo from '../components/STcomponents/Ufo';
 import FutureAdventure from '../components/STcomponents/FutureAdventure';
-import stDownlooads from '../components/STcomponents/stDownloads';
 import Back2Top from '../components/Back2Top';
+import StNav from '../components/STcomponents/StNav.jsx';
 
 const StoryTeller = () => {
   window.scrollTo(0, 0);
@@ -24,6 +24,7 @@ const StoryTeller = () => {
             />
             Story Tellers
           </h1>
+          <StNav />
           <Npc />
           <Back2Top />
           <Clues />

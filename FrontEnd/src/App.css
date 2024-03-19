@@ -246,14 +246,9 @@ article img {
   margin: auto 0px;
 }
 
-.btn-holder:hover,
-.btn-holder-left:hover,
-.btn-holder-right:hover {
-  transform: translate3d(0, 0, 0);
-}
-
 .upside-down button:hover {
-  transform: rotate(360deg);
+  animation: shake 2s infinite;
+  rotate: 180deg;
 }
 
 .traits {
@@ -1299,6 +1294,7 @@ h4 {
 .middle:hover,
 .right:hover {
   scale: 1.1;
+  transition: scale ease-in-out 0.5s;
 }
 
 .footsteps img {
@@ -1388,7 +1384,7 @@ h4 {
 }
 
 .float2 {
-  animation: floatAlt 7s infinite;
+  animation: floatAlt 5s infinite;
 }
 
 .neonNav {
@@ -1448,12 +1444,7 @@ h4 {
   0% {
     transform: translateY(0px);
   }
-  15% {
-    transform: translateY(5px);
-  }
-  25% {
-    transform: translateX(5px);
-  }
+
   50% {
     transform: translateY(20px);
   }
@@ -1461,9 +1452,6 @@ h4 {
     transform: translateX(-5px);
   }
 
-  90% {
-    transform: translateY(-5px);
-  }
   100% {
     transform: translateY(0px);
   }

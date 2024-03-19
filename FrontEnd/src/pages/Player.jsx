@@ -3,7 +3,6 @@ import Dice from '../components/Pcomponents/dice';
 import Classes from '../components/Pcomponents/classes';
 import CheatSheet from '../components/Pcomponents/cheatSheet';
 import CharSheetBreak from '../components/Pcomponents/charSheetBreak';
-import CharBuilder from '../components/Pcomponents/characterBuilder';
 import Downloads from '../components//Pcomponents/downloads';
 import Footer from '../components/footer';
 import DGS from '../components/Pcomponents/DGS';

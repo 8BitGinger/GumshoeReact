@@ -2,7 +2,7 @@ import React from 'react';
 
 const FutureAdventure = () => {
   return (
-    <section>
+    <section id="adventure">
       {' '}
       <h3>
         Starter Adventure <br />

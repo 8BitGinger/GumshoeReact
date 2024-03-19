@@ -20,16 +20,18 @@
   justify-content: center;
 }
 
-.charContainer button {
+.download-btn {
   width: fit-content;
   margin: 10px auto;
   background-color: bisque;
   border-radius: 3px;
   padding: 5px;
   cursor: pointer;
+  font-size: 20px;
+  font-family: 'newsreader', sans-serif;
 }
 
-.charContainer button:hover {
+.download-btn:hover {
   background-color: #000000;
   color: antiquewhite;
 }
