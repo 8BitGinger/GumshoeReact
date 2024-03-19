@@ -1,3 +1,5 @@
+import critical2 from '../../assets/images/critical2.png';
+
 const Criticals = () => {
   return (
     <section>
@@ -19,7 +21,7 @@ const Criticals = () => {
           Critical Dodge then it is still considered a miss!
           <br />
         </p>
-        <img src="src/assets/images/critical2.png" alt="d20" />
+        <img src={critical2} alt="d20" />
       </article>
       <div className="card">
         <p>

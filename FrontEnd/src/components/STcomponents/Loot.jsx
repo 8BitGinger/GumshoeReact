@@ -1,4 +1,5 @@
 import React from 'react';
+import gear from '../../assets/images/gear.png';
 
 const Loot = () => {
   return (
@@ -6,7 +7,7 @@ const Loot = () => {
       <h2>Loot</h2>
 
       <article className="card column">
-        <img src="src/assets/images/gear.png" alt="antique spy gear" />
+        <img src={gear} alt="antique spy gear" />
         <p className="loot">
           Every win brings rewards.
           <br />

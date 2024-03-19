@@ -1,4 +1,5 @@
 import React from 'react';
+import death from '../../assets/images/death.png';
 
 const DeathInjury = () => {
   return (
@@ -6,7 +7,7 @@ const DeathInjury = () => {
       <h2>Death and Injury</h2>
 
       <article className="card column">
-        <img src="src/assets/images/death.png" alt="death logo" />
+        <img src={death} alt="death logo" />
         <p>
           {' '}
           DEATH AND INJURY
@@ -36,11 +37,7 @@ const DeathInjury = () => {
           The Storyteller, yourself, gets to decide if your story ends with a
           whimper or a bang. It&apos;s a story only you can tell!
         </p>
-        <img
-          className="upside-down"
-          src="src/assets/images/death.png"
-          alt="skull and crossbones"
-        />
+        <img className="upside-down" src={death} alt="skull and crossbones" />
       </article>
     </section>
   );

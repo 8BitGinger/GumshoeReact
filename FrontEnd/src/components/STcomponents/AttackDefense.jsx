@@ -1,4 +1,5 @@
 import React from 'react';
+import combat from '../../assets/images/combat.jpg';
 
 const AttackDefense = () => {
   return (
@@ -6,10 +7,7 @@ const AttackDefense = () => {
       <h2>Attack & Defense Rolls</h2>
 
       <article className="card column">
-        <img
-          src="src/assets/images/combat.jpg"
-          alt="gangsters posing with guns"
-        />
+        <img src={combat} alt="gangsters posing with guns" />
         <p>
           Combat is based on Attack & Defense Rolls.
           <br />

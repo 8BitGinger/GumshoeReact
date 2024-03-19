@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import neoncity2 from '../../assets/images/neoncity2.jpg';
 
 const neonRedirect = () => {
   return (
@@ -11,7 +12,7 @@ const neonRedirect = () => {
       </h1>
 
       <article className="column card">
-        <img src="src/assets/images/neoncity2.jpg" alt="neon city logo" />
+        <img src={neoncity2} alt="neon city logo" />
         <p>
           Forget paper maps, sweetheart. This ain&apos;t your typical tourist
           trap. You wanna navigate the grimy underbelly of Neon City? Good.

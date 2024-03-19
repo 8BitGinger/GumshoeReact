@@ -1,4 +1,6 @@
 import ClueP from './cluePrinciples';
+import cluesPic from '../../assets/images/clues.jpg';
+import audience from '../../assets/images/audience.jpg';
 
 const clues = () => {
   return (
@@ -16,7 +18,7 @@ const clues = () => {
           crumpled matchbook. Let your players connect the dots, their
           &quot;Aha!&quot; moments sweeter for the struggle.
         </p>
-        <img src="src/assets/images/audience.jpg" alt="group of citizens" />
+        <img src={audience} alt="group of citizens" />
       </article>
 
       <article className="card column ">
@@ -33,7 +35,7 @@ const clues = () => {
       <h2>Discovering Clues</h2>
 
       <article className="card column">
-        <img src="src/assets/images/clues.jpg" alt="man showing clues" />
+        <img src={cluesPic} alt="man showing clues" />
         <p>
           You will have to present clues for the players to follow. It&apos;s a
           tough balance to find the right difficulty level for your clues,

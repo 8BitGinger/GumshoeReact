@@ -3,6 +3,7 @@ import Criticals from './Criticals';
 import DeathInjury from './DeathInjury';
 import Loot from './Loot';
 import StatTemplate from './StatTemplate';
+import gangsters from '../../assets/images/gangsters.jpg';
 
 const combat = () => {
   return (
@@ -24,7 +25,7 @@ const combat = () => {
           around the table. When it gets to the Story Teller he will roll for
           the NPC&apos;s.
         </p>
-        <img src="src/assets/images/gangsters.jpg" alt="gangsters at desk" />
+        <img src={gangsters} alt="gangsters at desk" />
       </article>
       <AttackDefense />
       <Criticals />

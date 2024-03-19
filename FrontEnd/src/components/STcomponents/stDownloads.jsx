@@ -1,4 +1,3 @@
-import React from 'react';
 import gear from '../../assets/images/gear.png';
 import NeonCityCharSheet from '../../assets/downloads/NeonCity-CharSheet.pdf';
 import NeonCityStarterAdventure from '../../assets/downloads/NeonCity-StarterAdventure.pdf';

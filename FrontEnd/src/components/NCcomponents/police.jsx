@@ -40,10 +40,7 @@ const police = () => {
             </div>
 
             <div className="middle">
-              <img
-                src="src/assets/images/bettyFranklin.png"
-                alt={bettyFranklin}
-              />
+              <img src={bettyFranklin} alt="Officer Betty Franklin" />
               <span className="italic bold">Officer Betty Franklin:</span> Sharp
               as a tack and twice as jaded, Betty&apos;s disillusioned with the
               department&apos;s corruption. She leaks information for the right
