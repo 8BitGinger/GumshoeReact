@@ -11,17 +11,14 @@ import GraphicBanner from '../components/GraphicBanner';
 import Players from '../components/Players';
 import StoryTellers from '../components/STs';
 import Footer from '../components/footer';
+import logoImage from '../assets/images/document-logo-sepia2.png';
 
 const Home = () => {
   return (
     <div className="overlay spacer" id="top">
       <section id="intro" className="container intro">
         <h1 className="starter">
-          <img
-            className="gumshoe"
-            src="src/assets/images/document-logo-sepia2.png"
-            alt="logo"
-          />
+          <img className="gumshoe" src={logoImage} alt="logo" />
 
           <br />
           <br />

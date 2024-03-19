@@ -1,16 +1,13 @@
 import React from 'react';
 import { Icon } from 'semantic-ui-react';
+import devAvatar from '../assets/images/dev-avatar.png';
+import PenroseHeader from './penroseHeader';
 
 const DevCard = () => {
   return (
     <section className="container">
       <h1>
-        <img
-          id="page-top spin"
-          className="page-top spin"
-          src="src/assets/images/penrosev1.png"
-          alt="penrose triangle"
-        />
+        <PenroseHeader />
         The Developer
       </h1>
       <h3>
@@ -22,10 +19,7 @@ const DevCard = () => {
       <section className="column ">
         <div className="col dev-text spacer">
           <div className="row2">
-            <img
-              src="src/assets/images/dev-avatar.png"
-              alt="developer avatar"
-            />
+            <img src={devAvatar} alt="developer avatar" />
 
             <p>
               I'm <span className="subtitle2">Ryan Fann, the 8BitGinger,</span>{' '}

@@ -1,15 +1,13 @@
 import React from 'react';
+import PenroseHeader from './penroseHeader';
+import dame from '../assets/images/dame.jpg';
+import fedora from '../assets/images/fedora.jpg';
 
 const HowToPlay = () => {
   return (
     <section className="container instructions">
       <h1>
-        <img
-          id="page-top spin"
-          className="page-top spin"
-          src="src/assets/images/penrosev1.png"
-          alt="penrose triangle"
-        />
+        <PenroseHeader />
         How to Play
       </h1>
       <h3>
@@ -21,7 +19,7 @@ const HowToPlay = () => {
         for Character Sheet
       </h3>
       <article className="column avatar">
-        <img src="src/assets/images/dame.jpg" alt="car driving in city" />
+        <img src={dame} alt="woman smoking" />
         <p>
           Rain slicked the neon-drenched streets of Neon City, reflecting the
           city&apos;s seedy underbelly in a distorted kaleidoscope. In this
@@ -58,7 +56,7 @@ const HowToPlay = () => {
           the neon abyss. The clock&apos;s ticking, gumshoe. And in Neon City,
           time is measured in bullets.
         </p>
-        <img src="src/assets/images/fedora.jpg" alt="man in fedora" />
+        <img src={fedora} alt="man in fedora" />
       </article>
       <article className="row4">
         <div className="role">

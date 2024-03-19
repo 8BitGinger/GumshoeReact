@@ -1,19 +1,20 @@
 import React from 'react';
+import PenroseHeader from './penroseHeader';
+import postCard from '../assets/images/postcard-main.jpg';
+import frank from '../assets/images/frank.jpg';
+import neonCity2 from '../assets/images/neoncity2.jpg';
+import agents2 from '../assets/images/agents2.jpg';
+import alienInvasion from '../assets/images/alien-invasion.jpg';
 
 const TheStory = () => {
   return (
     <section className="container">
       <h1 className="column">
-        <img
-          id="page-top spin"
-          className="page-top spin"
-          src="src/assets/images/penrosev1.png"
-          alt="penrose triangle"
-        />
+        <PenroseHeader />
         The Story
       </h1>
       <article className="column">
-        <img src="src/assets/images/postcard-main.jpg" alt="postcard" />
+        <img src={postCard} alt="postcard" />
         <p>
           Rain hammered the grimy windowpane, blurring the neon symphony outside
           into a watercolor of sin. The dame in the red dress had been gone for
@@ -35,10 +36,10 @@ const TheStory = () => {
           clubs form the backdrop of your search for the truth about who killed
           your lover and the identity of the mysterious agents following you.
         </p>
-        <img src="src/assets/images/frank.jpg" alt="neon city scene" />
+        <img src={frank} alt="neon city scene" />
       </article>
       <article className="column">
-        <img src="src/assets/images/neoncity2.jpg" alt="neon city scene" />
+        <img src={neonCity2} alt="neon city scene" />
         <p>
           But even the city&apos;s dazzling lights can&apos;t mask the dark
           secrets it holds. Your only hope seems to be Frank Hodgkins, a haggard
@@ -56,12 +57,12 @@ const TheStory = () => {
           your every move. They are a force to be reckoned with and will stop at
           nothing to keep you from uncovering the truth.
         </p>
-        <img src="src/assets/images/agents2.jpg" alt="penrose agents" />
+        <img src={agents2} alt="penrose agents" />
       </article>
       <article className="column">
         <img
-          src="src/assets/images/alien-invasion.jpg"
-          alt="skyline of alien invasion with man staring in distance"
+          src={alienInvasion}
+          alt="alien invasion with man in fedora and trench coat"
         />
         <p>
           Together, you&apos;ll navigate the neon-drenched labyrinth, armed with

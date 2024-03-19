@@ -7,6 +7,7 @@ function App() {
     <>
       <div className="backer">
         <Navbar />
+
         <main className="page-container">
           <Outlet />
         </main>

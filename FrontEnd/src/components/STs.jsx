@@ -1,16 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PenroseHeader from './penroseHeader';
+import stPic from '../assets/images/storyteller.jpg';
 
 const StoryTellers = () => {
   return (
     <section className="container">
       <h1>
-        <img
-          id="page-top spin"
-          className="page-top spin"
-          src="src/assets/images/penrosev1.png"
-          alt="penrose triangle"
-        />
+        <PenroseHeader />
         StoryTellers
       </h1>
       <h3>
@@ -22,10 +19,7 @@ const StoryTellers = () => {
       </h3>
 
       <article className="column avatar">
-        <img
-          src="src/assets/images/storyteller.jpg"
-          alt="sketch of noir man with hat"
-        />
+        <img src={stPic} alt="sketch of noir man with hat" />
         <p>
           In the grand game of mystery, you, the Story Teller, are the puppet
           master, weaving a web of intrigue for your players to unravel. You are

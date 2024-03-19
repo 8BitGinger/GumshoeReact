@@ -1,4 +1,5 @@
 import React from 'react';
+import reporter from '../assets/images/reporter.png';
 
 const NewsPaper = () => {
   return (
@@ -55,7 +56,7 @@ const NewsPaper = () => {
             out.&quot;
           </p>
           <div className="row2 welcome">
-            <img src="src/assets/images/reporter.png" alt="reporter" />
+            <img src={reporter} alt="reporter" />
             <h4 className="italic">
               -Harvey Stietz <br />
               <span className="sub-title2">Hollywoodland Mirror</span>

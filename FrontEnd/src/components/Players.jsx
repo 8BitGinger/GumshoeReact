@@ -1,23 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import playerPic from '../assets/images/players.jpg';
+import PenroseHeader from './penroseHeader';
 
 const Players = () => {
   return (
     <section className="container">
       <h1>
-        <img
-          id="page-top spin"
-          className="page-top spin"
-          src="src/assets/images/penrosev1.png"
-          alt="penrose triangle"
-        />
+        <PenroseHeader />
         Players
       </h1>
       <h3>
         Players <Link to="/player">Click Here</Link>
       </h3>
       <article className="column avatar">
-        <img src="src/assets/images/players.jpg" alt="guy with gun" />
+        <img src={playerPic} alt="guy with gun" />
         <p>
           Neon City ain&apos;t a place for the nameless, partner. Before you
           even set foot in this concrete jungle, you gotta craft your own

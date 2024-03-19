@@ -1297,6 +1297,13 @@ h4 {
   transition: scale ease-in-out 0.5s;
 }
 
+.audioContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
 .footsteps img {
   margin: auto;
   width: 100%;

@@ -1,15 +1,14 @@
 import React from 'react';
+import PenroseHeader from './penroseHeader';
+import gear from '../assets/images/gear.png';
+import charSheet from '../assets/downloads/NeonCity-CharSheet.pdf';
+import starterAdventure from '../assets/downloads/NeonCity-StarterAdventure.pdf';
 
 const Downloads = () => {
   return (
     <section className="container" id="downloads">
       <h1>
-        <img
-          id="page-top spin"
-          className="page-top spin"
-          src="src/assets/images/penrosev1.png"
-          alt="penrose triangle"
-        />
+        <PenroseHeader />
         Downloads and Resources
       </h1>
       <article className="column">
@@ -26,17 +25,13 @@ const Downloads = () => {
           abyss.
         </p>
         <p className="col skew">
-          <img
-            className="avatar3"
-            src="src/assets/images/gear.png"
-            alt="1930s gear"
-          />
+          <img className="avatar3" src={gear} alt="1930s gear" />
 
-          <a href="src/assets/downloads/NeonCity-CharSheet.pdf" download>
+          <a href={charSheet} download>
             ✓ Character Sheet
           </a>
 
-          <a href="src/assets/downloads/NeonCity-StarterAdventure.pdf" download>
+          <a href={starterAdventure} download>
             ✓ Starter Adventure
           </a>
         </p>
