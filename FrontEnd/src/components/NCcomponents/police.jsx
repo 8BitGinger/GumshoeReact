@@ -1,3 +1,8 @@
+import lawman from '../../assets/images/lawman.png';
+import salMarconi from '../../assets/images/salMarconi.png';
+import bettyFranklin from '../../assets/images/bettyFranklin.png';
+import smoothEddie from '../../assets/images/smoothEddie.png';
+
 const police = () => {
   return (
     <section className="container" id="police">
@@ -5,7 +10,7 @@ const police = () => {
         <h2>The Neon City Police:</h2>
 
         <article className="card column">
-          <img src="src/assets/images/lawman.png" alt="police officer" />
+          <img src={lawman} alt="police officer" />
           <p>
             Entering the Neon City Police Station was like stepping into a film
             noir come to life. It was a place where hope flickered like a dying
@@ -21,10 +26,7 @@ const police = () => {
         <div className="container">
           <div className="column">
             <div className="left">
-              <img
-                src="src/assets/images/salMarconi.png"
-                alt="sal marconi - the muscle"
-              />
+              <img src={salMarconi} alt="sal marconi - the muscle" />
               <span className="italic bold">
                 Sal &quot;The Muscle&quot; Marconi:
               </span>{' '}
@@ -40,7 +42,7 @@ const police = () => {
             <div className="middle">
               <img
                 src="src/assets/images/bettyFranklin.png"
-                alt="betty franklin - the mole"
+                alt={bettyFranklin}
               />
               <span className="italic bold">Officer Betty Franklin:</span> Sharp
               as a tack and twice as jaded, Betty&apos;s disillusioned with the
@@ -52,10 +54,7 @@ const police = () => {
               the full force of the corrupt system she despises.
             </div>
             <div className="right">
-              <img
-                src="src/assets/images/smoothEddie.png"
-                alt="Smooth Eddie valentine"
-              />
+              <img src={smoothEddie} alt="Smooth Eddie valentine" />
               <span className="italic bold">Smooth Eddie Valentine:</span>{' '}
               Eddie&apos;s a walking rolodex of dirty cops, corrupt judges, and
               even seedier informants. He can make a traffic violation disappear

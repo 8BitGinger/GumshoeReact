@@ -1,4 +1,8 @@
-import React from 'react';
+import auto2 from '../../assets/images/auto2.png';
+import blankBack from '../../assets/images/blank-back.png';
+import reginaldSkylark from '../../assets/images/reginaldSkylark.png';
+import skylarkBuilding from '../../assets/images/skylarkBuilding.png';
+import ferrisSkylark from '../../assets/images/ferrisSkylark.png';
 
 const skylark = () => {
   return (
@@ -22,22 +26,15 @@ const skylark = () => {
             </p>
           </div>
           <div className="rel">
-            <img src="src/assets/images/blank-back.png" alt="logo background" />
-            <img
-              className="abs shake"
-              src="src/assets/images/auto2.png"
-              alt="car logo"
-            />
+            <img src={blankBack} alt="logo background" />
+            <img className="abs shake" src={auto2} alt="car logo" />
           </div>
         </div>
 
         <div className="container">
           <div className="column">
             <div className="left">
-              <img
-                src="src/assets/images/reginaldSkylark.png"
-                alt="Reginald Skylark"
-              />
+              <img src={reginaldSkylark} alt="Reginald Skylark" />
               <span className="italic bold">Reginald Skylark</span> the man who
               steered Skylark Motors to its current chrome-plated glory. His
               face, a roadmap etched by years of business deals and boardroom
@@ -47,10 +44,7 @@ const skylark = () => {
               precariously on his eye, a relic from a bygone era.
             </div>
             <div className="middle">
-              <img
-                src="src/assets/images/skylarkBuilding.png"
-                alt="Skylark Building"
-              />
+              <img src={skylarkBuilding} alt="Skylark Building" />
               <span className="italic bold">Skylark Tower</span> High above the
               bustling streets, large, slanted windows, trimmed in chrome,
               offered brief glimpses of busy offices where sharp-suited
@@ -60,10 +54,7 @@ const skylark = () => {
               chrome horizon. <br />*
             </div>
             <div className="right">
-              <img
-                src="src/assets/images/ferrisSkylark.png"
-                alt="Ferris Skylark"
-              />
+              <img src={ferrisSkylark} alt="Ferris Skylark" />
               <span className="italic bold">Ferris Skylark</span> was the living
               embodiment of Skylark Tower&apos;s polished chrome and dazzling
               neon. Young, with a face as smooth as a freshly waxed fender, he

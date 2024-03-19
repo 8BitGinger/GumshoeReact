@@ -6,6 +6,9 @@ import CharSheetBreak from '../components/Pcomponents/charSheetBreak';
 import Downloads from '../components//Pcomponents/downloads';
 import Footer from '../components/footer';
 import DGS from '../components/Pcomponents/DGS';
+import PenroseHeader from '../components/penroseHeader';
+import partnersPic from '../assets/images/partners.jpg';
+import backstoryPic from '../assets/images/backstory.jpg';
 
 const Player = () => {
   window.scrollTo(0, 0);
@@ -14,19 +17,14 @@ const Player = () => {
     <div className="overlay spacer" id="top">
       <section id="intro" className="container intro">
         <h1>
-          <img
-            id="icon1"
-            className="page-top spin"
-            src="src/assets/images/penrosev1.png"
-            alt="Penrose Triangle"
-          />
+          <PenroseHeader />
           Player Page
         </h1>
 
         <article className="column avatar">
           <img
             className="avatar5"
-            src="src/assets/images/partners.jpg"
+            src={partnersPic}
             alt="man and woman staring at each other"
           />
           <p>
@@ -51,7 +49,7 @@ const Player = () => {
           </p>
           <img
             className="avatar5"
-            src="src/assets/images/backstory.jpg"
+            src={backstoryPic}
             alt="man standing with fedora"
           />
         </article>

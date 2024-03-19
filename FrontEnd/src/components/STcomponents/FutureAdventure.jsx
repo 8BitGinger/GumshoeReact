@@ -1,4 +1,9 @@
-import React from 'react';
+import NeonCityStarterAdventure from '../../assets/downloads/NeonCity-StarterAdventure.pdf';
+import neoncitySepia from '../../assets/images/readme/neoncity-sepia.jpg';
+import hollywoodlandSepia from '../../assets/images/readme/hollywoodland-sepia.jpg';
+import riorevengeSepia from '../../assets/images/readme/riorevenge-sepia.jpg';
+import russianightsSepia from '../../assets/images/readme/russiannights-sepia.jpg';
+import multiverseSepia from '../../assets/images/readme/multiverse-sepia.jpg';
 
 const FutureAdventure = () => {
   return (
@@ -6,7 +11,7 @@ const FutureAdventure = () => {
       {' '}
       <h3>
         Starter Adventure <br />
-        <a href="src/assets/images/docs/NeonCity-StarterAdventure.pdf" download>
+        <a href={NeonCityStarterAdventure} download>
           Download Chapter 1
         </a>
       </h3>
@@ -22,17 +27,11 @@ const FutureAdventure = () => {
           skills honed in the shadows of steel canyons. But a dame in distress?
           That&apos;s a case I couldn&apos;t walk away from.
         </p>
-        <img
-          src="src/assets/images/readme/neoncity-sepia.jpg"
-          alt="neon city logo"
-        />
+        <img src={neoncitySepia} alt="neon city logo" />
       </article>
       <h3>Future Adventures</h3>
       <article className="card column">
-        <img
-          src="src/assets/images/readme/hollywoodland-sepia.jpg"
-          alt="hollywoodland logo"
-        />
+        <img src={hollywoodlandSepia} alt="hollywoodland logo" />
         <p>
           The smog hung heavy over Tinseltown, a sickly yellow halo above the
           hazy dreamscape. Here, ambition dripped like sweat under the merciless
@@ -64,16 +63,10 @@ const FutureAdventure = () => {
           revenge as cold as a Rio night. This dame in distress wouldn&apos;t be
           wearing a swimsuit, but a shroud.
         </p>
-        <img
-          src="src/assets/images/readme/riorevenge-sepia.jpg"
-          alt="revenge in rio logo"
-        />
+        <img src={riorevengeSepia} alt="revenge in rio logo" />
       </article>
       <article className="card column">
-        <img
-          src="src/assets/images/readme/russiannights-sepia.jpg"
-          alt="russian nights logo"
-        />
+        <img src={russianightsSepia} alt="russian nights logo" />
         <p>
           Moscow, a frozen tomb bathed in perpetual twilight. Not exactly your
           typical tourist trap. You, a gumshoe with a nose for trouble and a
@@ -103,10 +96,7 @@ const FutureAdventure = () => {
           Ms. Sunday enough to learn the mystery that started this whole
           adventure!
         </p>
-        <img
-          src="src/assets/images/readme/multiverse-sepia.jpg"
-          alt="agents of the multiverse logo"
-        />
+        <img src={multiverseSepia} alt="agents of the multiverse logo" />
       </article>
     </section>
   );

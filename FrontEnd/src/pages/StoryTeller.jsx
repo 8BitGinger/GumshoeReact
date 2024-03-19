@@ -8,6 +8,8 @@ import Ufo from '../components/STcomponents/Ufo';
 import FutureAdventure from '../components/STcomponents/FutureAdventure';
 import Back2Top from '../components/Back2Top';
 import StNav from '../components/STcomponents/StNav.jsx';
+import StDownLoads from '../components/STcomponents/stDownloads';
+import PenroseHeader from '../components/penroseHeader';
 
 const StoryTeller = () => {
   window.scrollTo(0, 0);
@@ -17,11 +19,7 @@ const StoryTeller = () => {
       <div className="overlay spacer" id="top">
         <section className="container intro">
           <h1>
-            <img
-              id="iconST"
-              className="page-top spin"
-              src="src/assets/images/penrosev1.png"
-            />
+            <PenroseHeader />
             Story Tellers
           </h1>
           <StNav />
@@ -36,7 +34,7 @@ const StoryTeller = () => {
           <NeonCity />
           <Back2Top />
           <Ufo />
-          <stDownloads />
+          <StDownLoads />
           <Back2Top />
           <FutureAdventure />
           <Back2Top />

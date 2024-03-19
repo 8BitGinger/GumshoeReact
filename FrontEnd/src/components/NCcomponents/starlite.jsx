@@ -1,4 +1,4 @@
-import React from 'react';
+import starlitePic from '../../assets/images/starlite.png';
 
 const starlite = () => {
   return (
@@ -7,10 +7,7 @@ const starlite = () => {
         <h2>The Starlite Motel:</h2>
 
         <article className="card column">
-          <img
-            src="src/assets/images/starlite.png"
-            alt="Handsome Bob and Daughter Adriana"
-          />
+          <img src={starlitePic} alt="Handsome Bob and Daughter Adriana" />
           <p>
             {' '}
             Unlike its flashy cousins downtown, the Starlite wasn&apos;t a

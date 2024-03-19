@@ -1,4 +1,4 @@
-import React from 'react';
+import agents2 from '../../assets/images/agents2.jpg';
 
 const penrose = () => {
   return (
@@ -22,7 +22,7 @@ const penrose = () => {
             a player could use them to their advantage. After all, the enemy of
             my enemy is my friend, right?
           </p>
-          <img src="src/assets/images/agents2.jpg" alt="penrose agents" />
+          <img src={agents2} alt="penrose agents" />
         </article>
       </section>
     </div>

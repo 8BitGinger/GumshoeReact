@@ -1,4 +1,10 @@
 import React from 'react';
+import blankBack from '../../assets/images/blank-back.png';
+import anchor2 from '../../assets/images/anchor2.png';
+import harborSingle from '../../assets/images/harborSingle.png';
+import carGoods from '../../assets/images/carGoods.png';
+import captainCutlass from '../../assets/images/captainCutlass.png';
+import harborPic from '../../assets/images/harbor.png';
 
 const harbor = () => {
   return (
@@ -8,11 +14,11 @@ const harbor = () => {
 
         <div className="card4 column">
           <div className="rel">
-            <img src="src/assets/images/blank-back.png" alt="logo background" />
+            <img src={blankBack} alt="logo background" />
             <img
               id="roulette"
               className="abs float2"
-              src="src/assets/images/anchor2.png"
+              src={anchor2}
               alt="anchor logo"
             />
           </div>
@@ -37,7 +43,7 @@ const harbor = () => {
           <div className="column">
             <div className="middle">
               <img
-                src="src/assets/images/harborSingle.png"
+                src={harborSingle}
                 alt="man in trench-coat overlooking harbor"
               />
               The docks themselves were a haven for those who operated on the
@@ -50,10 +56,7 @@ const harbor = () => {
               currents.
             </div>
             <div className="right">
-              <img
-                src="src/assets/images/carGoods.png"
-                alt="classic sports car"
-              />
+              <img src={carGoods} alt="classic sports car" />
               Under the watchful eyes of rusted cranes and the oily sheen of the
               water, a black market thrived. Stacks of uncut diamonds glittered
               like fallen stars, their brilliance a stark contrast to the dull
@@ -65,10 +68,7 @@ const harbor = () => {
             </div>
 
             <div className="left">
-              <img
-                src="src/assets/images/captainCutlass.png"
-                alt="captain cutlass"
-              />
+              <img src={captainCutlass} alt="captain cutlass" />
               Captain Kim commands the &quot;Full Moon,&quot; a rickety
               freighter that reeked more of fish and desperation than luxury.
               Rumors swirled about her past, whispers of a pirate captain on a
@@ -97,7 +97,7 @@ const harbor = () => {
             shadow hides a secret, and every corner whispers a story. Just be
             careful which ones you choose to listen to.
           </p>
-          <img src="src/assets/images/harbor.png" alt="harbor" />
+          <img src={harborPic} alt="harbor" />
         </article>
       </section>
     </div>

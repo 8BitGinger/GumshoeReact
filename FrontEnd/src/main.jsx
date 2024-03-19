@@ -39,10 +39,6 @@ const router = createBrowserRouter([
         path: 'neonCity',
         element: <NeonCity />,
       },
-      {
-        path: 'contact',
-        element: <Contact />,
-      },
     ],
   },
 ]);

@@ -1,4 +1,4 @@
-import React from 'react';
+import lonelyNoir from '../../assets/images/lonely-noir.jpg';
 
 const theEnd = () => {
   return (
@@ -15,10 +15,7 @@ const theEnd = () => {
             kid, tugging at their strings, leading them deeper into the rabbit
             hole. Remember, the real adventure starts now.
           </p>
-          <img
-            src="src/assets/images/lonely-noir.jpg"
-            alt="walking alone in the city"
-          />
+          <img src={lonelyNoir} alt="walking alone in the city" />
         </article>
       </section>
     </div>

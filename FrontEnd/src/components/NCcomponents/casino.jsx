@@ -1,4 +1,9 @@
-import React from 'react';
+import blankBank from '../../assets/images/blank-back.png';
+import casinoWheel from '../../assets/images/casino-wheel.png';
+import numbersNorton from '../../assets/images/numbersNorton.png';
+import esmereldaDiaz from '../../assets/images/esmereldaDiaz.png';
+import luckyMoretti from '../../assets/images/luckyMoretti.png';
+import gambling from '../../assets/images/gambling.png';
 
 const casino = () => {
   return (
@@ -8,11 +13,11 @@ const casino = () => {
 
         <div className="card4 column">
           <div className="rel">
-            <img src="src/assets/images/blank-back.png" alt="logo background" />
+            <img src={blankBank} alt="logo background" />
             <img
               id="roulette"
               className="abs spin"
-              src="src/assets/images/casino-wheel.png"
+              src={casinoWheel}
               alt="casino wheel"
             />
           </div>
@@ -39,10 +44,7 @@ const casino = () => {
         <div className="container">
           <div className="column">
             <div className="right">
-              <img
-                src="src/assets/images/numbersNorton.png"
-                alt="Numbers Norton"
-              />
+              <img src={numbersNorton} alt="Numbers Norton" />
               &quot;Numbers&quot; Norton: A wizened old man with a mind sharper
               than a broken bottle, Numbers isn&apos;t your typical casino
               patron. He doesn&apos;t gamble, he analyzes. Everyone believe
@@ -52,10 +54,7 @@ const casino = () => {
             </div>
 
             <div className="left">
-              <img
-                src="src/assets/images/esmereldaDiaz.png"
-                alt="Esmeralda Diaz"
-              />
+              <img src={esmereldaDiaz} alt="Esmeralda Diaz" />
               Esmeralda &quot;The Duchess&quot; Diaz: A woman who oozes glamour
               and danger in equal measure, With a past as murky as the bootleg
               liquor she once peddled, she&apos;s climbed the ranks from
@@ -64,10 +63,7 @@ const casino = () => {
               can freeze a room.
             </div>
             <div className="middle">
-              <img
-                src="src/assets/images/luckyMoretti.png"
-                alt="Lucky Luciano Moretti"
-              />
+              <img src={luckyMoretti} alt="Lucky Luciano Moretti" />
               &quot;Lucky&quot; Luciano Moretti: A wiry card shark with a grin
               as crooked as his dice throws, Lucky Luciano is a legend in The
               Block. He first appeared in Neon City ten years ago, a penniless
@@ -79,7 +75,7 @@ const casino = () => {
         </div>
 
         <article className="card column">
-          <img src="src/assets/images/gambling.png" alt="gambling" />
+          <img src={gambling} alt="gambling" />
           <p>
             Gambling Can be handled many different ways. Here some approaches I
             have taken:

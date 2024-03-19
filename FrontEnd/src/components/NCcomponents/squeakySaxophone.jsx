@@ -1,15 +1,20 @@
 import React from 'react';
+import jazz2 from '../../assets/images/jazz2.png';
+import blankBack from '../../assets/images/blank-back.png';
+import popsJohnson from '../../assets/images/popsJohnson.png';
+import rustyTrombonePic from '../../assets/images/rustyTrombone.png';
+import band from '../../assets/images/band.png';
 
 const rustyTrombone = () => {
   return (
     <div>
       <section className="container" id="jazz">
-        <h2>The Rusty Saxophone:</h2>
+        <h2>The Squeaky Saxophone:</h2>
 
         <div className="card4 column">
           <div className="text">
             <p>
-              The Rusty Saxophone
+              The Squeaky Saxophone
               <br />
               The club itself was a relic, a two-story building with peeling
               paint and a rickety fire escape clinging to its side like a
@@ -23,11 +28,11 @@ const rustyTrombone = () => {
             </p>
           </div>
           <div className="rel">
-            <img src="src/assets/images/blank-back.png" alt="logo background" />
+            <img src={blankBack} alt="logo background" />
             <img
               id="roulette"
               className="abs float"
-              src="src/assets/images/jazz2.png"
+              src={jazz2}
               alt="jazz logo"
             />
           </div>
@@ -36,7 +41,7 @@ const rustyTrombone = () => {
         <div className="container">
           <div className="column">
             <div className="left">
-              <img src="src/assets/images/popsJohnson.png" alt="pops johnson" />
+              <img src={popsJohnson} alt="pops johnson" />
               &quot;Pops&quot; Johnson, the owner, a gruff man with a heart as
               worn as the piano keys on stage. He knew everyone who shuffled
               through – the heartbroken saxophonist drowning his sorrows, the
@@ -48,8 +53,8 @@ const rustyTrombone = () => {
 
             <div className="middle">
               <img
-                src="src/assets/images/rustyTrombone.png"
-                alt="The Rusty Trombone Jazz Club"
+                src={rustyTrombonePic}
+                alt="The Squeaky Saxophone Jazz Club"
               />
               The club itself was a relic, a two-story building with peeling
               paint and a rickety fire escape clinging to its side like a
@@ -59,11 +64,8 @@ const rustyTrombone = () => {
               beauty of a life lived on the edge of a melody.
             </div>
             <div className="right">
-              <img
-                src="src/assets/images/band.png"
-                alt="Smoky Joe Miller Band"
-              />
-              Occupying the dimly lit stage of the Rusty Trombone most nights
+              <img src={band} alt="Smoky Joe Miller Band" />
+              Occupying the dimly lit stage of the Squeaky Saxophone most nights
               was &quot;Smoky&quot; Joe Miller&apos;s Ragtime Renegades, a
               ragtag band of veterans who poured their hearts and struggles into
               every note.The band&apos;s namesake, Joe was a wiry man with a

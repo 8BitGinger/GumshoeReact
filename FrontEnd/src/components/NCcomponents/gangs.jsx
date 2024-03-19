@@ -1,4 +1,8 @@
-import React from 'react';
+import blankBack from '../../assets/images/blank-back.png';
+import gangs2 from '../../assets/images/gangs2.png';
+import razorRick from '../../assets/images/razorRick.png';
+import twitchyTommy from '../../assets/images/twitchyTommy.png';
+import jackals from '../../assets/images/jackals.png';
 
 const gangs = () => {
   return (
@@ -8,11 +12,11 @@ const gangs = () => {
 
         <div className="card4 column">
           <div className="rel">
-            <img src="src/assets/images/blank-back.png" alt="logo background" />
+            <img src={blankBack} alt="logo background" />
             <img
               id="gang"
               className="abs hover"
-              src="src/assets/images/gangs2.png"
+              src={gangs2}
               alt="fist with chain logo"
             />
           </div>
@@ -40,7 +44,7 @@ const gangs = () => {
         <div className="container">
           <div className="column">
             <div className="left">
-              <img src="src/assets/images/razorRick.png" alt="gang leader" />
+              <img src={razorRick} alt="gang leader" />
               <span className="italic bold">
                 &quot;Razor&quot; Rick Ricci:
               </span>{' '}
@@ -52,10 +56,7 @@ const gangs = () => {
             </div>
 
             <div className="middle">
-              <img
-                src="src/assets/images/twitchyTommy.png"
-                alt="gangster smoking"
-              />
+              <img src={twitchyTommy} alt="gangster smoking" />
               <span className="italic bold">
                 &quot;Twitch&quot; Tommy Tonelli:
               </span>{' '}
@@ -66,10 +67,7 @@ const gangs = () => {
               note.
             </div>
             <div className="right">
-              <img
-                src="src/assets/images/jackals.png"
-                alt="group of teenage gangsters"
-              />
+              <img src={jackals} alt="group of teenage gangsters" />
               <span className="italic bold">The &quot;Jackals&quot;:</span> A
               pack of feral teenagers, barely out of their teens, that formed
               the muscle of the Rusty Spikes. These kids were as unpredictable

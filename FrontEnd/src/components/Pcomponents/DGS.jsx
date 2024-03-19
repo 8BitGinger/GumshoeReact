@@ -3,6 +3,8 @@ import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 import logo from './document-logo-sepia2.png';
 import './playerPage.css';
+import twinDame from '../../assets/images/twin-dame.png';
+import PenroseHeader from '../penroseHeader';
 
 const DGS = () => {
   const [loader, setLoader] = useState(false);
@@ -25,26 +27,18 @@ const DGS = () => {
   return (
     <div className="container">
       <h1>
-        <img
-          className="page-top spin"
-          id="icon2"
-          src="src/assets/images/penrosev1.png"
-        />
+        <PenroseHeader />
         Digital Character Builder
       </h1>
       <section className="card charContainer">
         <div className="develop">
           <h3>Develop Your Character!</h3>
-          <img
-            src="src/assets/images/twin-dame.png"
-            className="avatar5"
-            alt="city sign"
-          />
+          <img src={twinDame} className="avatar5" alt="city sign" />
         </div>
 
         <form className="character-sheet">
           <div className="charMain">
-            <img src={logo} alt="8BitGinger Logo" />
+            <img src={logo} alt="gumshoe logo" />
             <p>Neon City Character Sheet</p>
             <div className="charTop">
               <div className="line1">
