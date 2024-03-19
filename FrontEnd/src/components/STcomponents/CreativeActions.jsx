@@ -20,7 +20,7 @@ const CreativeActions = () => {
           <br />
           👁 Perception Check for Banner
           <br />
-          ℹ Intelligence Check to calculate the distance and so on
+          ☘ Luck Roll for Banner to fall etc...
           <br />
         </p>
       </article>

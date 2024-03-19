@@ -140,7 +140,7 @@ const Classes = () => {
             <li>Camera</li>
             +1 to Investigation
             <li>Flashlight</li>
-            +1 to Spot
+            +1 to Perception
             <li>Knife</li>
             D6 Damage
           </ol>

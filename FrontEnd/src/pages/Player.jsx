@@ -6,6 +6,7 @@ import CharSheetBreak from '../components/Pcomponents/charSheetBreak';
 import CharBuilder from '../components/Pcomponents/characterBuilder';
 import Downloads from '../components//Pcomponents/downloads';
 import Footer from '../components/footer';
+import DGS from '../components/Pcomponents/DGS';
 
 const Player = () => {
   window.scrollTo(0, 0);
@@ -60,8 +61,10 @@ const Player = () => {
         <Dice />
         <CheatSheet />
         <CharSheetBreak />
-        <CharBuilder />
+
+        <DGS />
         <Downloads />
+
         <Footer />
       </section>
     </div>

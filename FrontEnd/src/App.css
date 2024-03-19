@@ -735,21 +735,6 @@ article img {
   margin: 5px;
 }
 
-.form input,
-textarea,
-select {
-  border-radius: 5px;
-  width: 90%;
-  height: 40px;
-
-  max-width: 500px;
-  font-size: 20px;
-  background-image: radial-gradient(
-    rgba(245, 246, 237, 0.874),
-    rgba(234, 234, 200, 0.874)
-  );
-}
-
 .twin {
   display: flex;
   flex-direction: row;
