@@ -2,6 +2,7 @@ import React from 'react';
 import CreativeActions from './CreativeActions';
 import Skills from './Skills';
 import LuckXP from './LuckXP';
+import barmen from '../../assets/images/barmen.jpg';
 
 const Gameplay = () => {
   return (
@@ -24,7 +25,7 @@ const Gameplay = () => {
           let&apos;s say they are in smokey Jazz Hall searching for a Gangster.
           The Gangster runs.
         </p>
-        <img src="src/assets/images/barmen.jpg" alt="mysterious men at bar" />
+        <img src={barmen} alt="mysterious men at bar" />
       </article>
       <div className="card">
         <p>

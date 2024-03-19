@@ -1,4 +1,5 @@
 import React from 'react';
+import combat2 from '../../assets/images/combat2.jpg';
 
 const Npc = () => {
   return (
@@ -25,7 +26,7 @@ const Npc = () => {
           specific NPCs to keep the story cohesive and give your players that
           extra reward!
         </p>
-        <img src="src/assets/images/combat2.jpg" alt="men in fedoras" />
+        <img src={combat2} alt="men in fedoras" />
       </article>
 
       <div className="card4">

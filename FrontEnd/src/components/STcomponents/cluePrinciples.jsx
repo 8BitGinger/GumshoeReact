@@ -1,4 +1,5 @@
 import React from 'react';
+import footsteps from '../../assets/images/footsteps.png';
 
 const cluePrinciples = () => {
   return (
@@ -7,11 +8,7 @@ const cluePrinciples = () => {
 
       <ul className="clue">
         <div className="">
-          <img
-            className="footsteps"
-            src="src/assets/images/footsteps.png"
-            alt="footsteps"
-          />
+          <img className="footsteps" src={footsteps} alt="footsteps" />
         </div>
         <article className="card">
           <li>
@@ -98,11 +95,7 @@ const cluePrinciples = () => {
           </p>
         </article>
         <div className="reverse">
-          <img
-            className="footsteps"
-            src="src/assets/images/footsteps.png"
-            alt="footsteps"
-          />
+          <img className="footsteps" src={footsteps} alt="footsteps" />
         </div>
       </ul>
     </>

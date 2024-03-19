@@ -1,4 +1,6 @@
 import React from 'react';
+import townsfolk from '../../assets/images/townsfolk.jpg';
+import d20 from '../../assets/images/d20.png';
 
 const Skill = () => {
   return (
@@ -21,7 +23,7 @@ const Skill = () => {
           Skill Checks are performed by using a D20 and adding the appropriate
           Skill Bonus. The Story Teller will set the difficulty of the check.
         </p>
-        <img src="src/assets/images/townsfolk.jpg" alt="people" />
+        <img src={townsfolk} alt="people" />
       </article>
       <section>
         <div className="alert">
@@ -30,7 +32,7 @@ const Skill = () => {
 
         <div className="row3 tray">
           <div className="left2">
-            <img className="diced" src="src/assets/images/d20.png" alt="d20" />
+            <img className="diced" src={d20} alt="d20" />
           </div>
 
           <div className="right2">

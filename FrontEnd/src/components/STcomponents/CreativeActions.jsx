@@ -1,3 +1,5 @@
+import actions from '../../assets/images/actions.png';
+
 const CreativeActions = () => {
   return (
     <section>
@@ -6,7 +8,7 @@ const CreativeActions = () => {
         <img
           id="ghost"
           className="shake"
-          src="src/assets/images/actions.png"
+          src={actions}
           alt="people performing actions"
         />
         <p>

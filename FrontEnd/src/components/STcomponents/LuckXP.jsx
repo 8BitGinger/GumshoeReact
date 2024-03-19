@@ -1,4 +1,5 @@
 import React from 'react';
+import diceSet from '../../assets/images/dice-set.png';
 
 const LuckXP = () => {
   return (
@@ -21,7 +22,7 @@ const LuckXP = () => {
           ⚂ 500 XP can be spent to increase a skill by 1 point.
           <br />⚃ 2000 XP can be spent to increase HP by 5 points.
         </p>
-        <img src="src/assets/images/dice-set.png" alt="dice logo" />
+        <img src={diceSet} alt="dice logo" />
       </article>
     </section>
   );
