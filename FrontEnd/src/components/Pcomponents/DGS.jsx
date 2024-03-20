@@ -30,7 +30,7 @@ const DGS = () => {
         <PenroseHeader />
         Digital Character Builder
       </h1>
-      <section className="card charContainer">
+      <section className="charContainer">
         <div className="develop">
           <h3>Develop Your Character!</h3>
           <img src={twinDame} className="avatar5" alt="city sign" />
@@ -39,7 +39,6 @@ const DGS = () => {
         <form className="character-sheet">
           <div className="charMain">
             <img src={logo} alt="gumshoe logo" />
-            <p>Neon City Character Sheet</p>
             <div className="charTop">
               <div className="line1">
                 <label htmlFor="charName">Character Name</label>
@@ -106,8 +105,6 @@ const DGS = () => {
               <textarea type="text" id="charWeapon1" name="charWeapon1" />
               <label htmlFor="charWeapon2">Weapon 2</label>
               <textarea type="text" id="charWeapon2" name="charWeapon2" />
-              <label htmlFor="charWeapon3">Weapon 1</label>
-              <textarea type="text" id="charWeapon3" name="charWeapon3" />
             </div>
           </div>
 

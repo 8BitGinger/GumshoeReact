@@ -594,6 +594,14 @@ article img {
   top: 0;
   left: 0;
   z-index: 999;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.playIcon {
+  font-family: 'newsreader', serif;
+  -webkit-text-stroke: 1px black;
 }
 
 .stat li {
@@ -1373,6 +1381,22 @@ h4 {
   font-family: 'abril fatface', cursive;
 }
 
+.tool {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
+
+.tool textarea {
+  height: 150px;
+  margin: 5px;
+}
+
+.btnGen {
+  width: 100%;
+}
+
 .spin {
   animation: spin 5s linear infinite;
 }
@@ -1983,5 +2007,14 @@ h4 {
 
   .starter {
     margin-top: 55px !important;
+  }
+
+  .play-me {
+    margin-top: 65px;
+  }
+
+  .playIcon {
+    color: black !important;
+    -webkit-text-stroke: 1px antiquewhite;
   }
 }

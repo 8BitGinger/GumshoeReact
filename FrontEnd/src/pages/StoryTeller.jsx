@@ -10,6 +10,7 @@ import Back2Top from '../components/Back2Top';
 import StNav from '../components/STcomponents/StNav.jsx';
 import StDownLoads from '../components/STcomponents/stDownloads';
 import PenroseHeader from '../components/penroseHeader';
+import StoryGenerator from '../components/STcomponents/storyGenerator';
 
 const StoryTeller = () => {
   window.scrollTo(0, 0);
@@ -34,6 +35,8 @@ const StoryTeller = () => {
           <NeonCity />
           <Back2Top />
           <Ufo />
+          <StoryGenerator />
+          <Back2Top />
           <StDownLoads />
           <Back2Top />
           <FutureAdventure />

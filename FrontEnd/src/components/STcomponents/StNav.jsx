@@ -15,6 +15,9 @@ const StNav = () => {
             <a href="#gameplay">Gameplay</a>
           </li>
           <li>
+            <a href="#storyGen">Story Generator</a>
+          </li>
+          <li>
             <a href="#adventure">Adventures</a>
           </li>
         </ul>
