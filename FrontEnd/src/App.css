@@ -246,11 +246,6 @@ article img {
   margin: auto 0px;
 }
 
-.upside-down button:hover {
-  animation: shake 2s infinite;
-  rotate: 180deg;
-}
-
 .traits {
   display: flex;
   flex-direction: column;
@@ -1381,20 +1376,39 @@ h4 {
   font-family: 'abril fatface', cursive;
 }
 
-.tool {
+.toolCard {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tool {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tool ul {
+  list-style-type: none;
   margin: auto;
 }
 
-.tool textarea {
-  height: 150px;
-  margin: 5px;
+.tool button {
+  margin: 15px auto;
+}
+
+.toolCard h4 {
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 25px;
 }
 
 .btnGen {
-  width: 100%;
+  width: 150px;
+  text-align: center;
+  margin: auto;
 }
 
 .spin {
