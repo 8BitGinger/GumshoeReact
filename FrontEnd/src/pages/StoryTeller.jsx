@@ -11,7 +11,6 @@ import StNav from '../components/STcomponents/StNav.jsx';
 import StDownLoads from '../components/STcomponents/stDownloads';
 import PenroseHeader from '../components/penroseHeader';
 import StoryGenerator from '../components/STcomponents/storyGenerator';
-import IntroST from '../components/STcomponents/IntroST.jsx';
 
 const StoryTeller = () => {
   window.scrollTo(0, 0);
@@ -24,7 +23,7 @@ const StoryTeller = () => {
             <PenroseHeader />
             Story Tellers
           </h1>
-          <IntroST />
+
           <StNav />
           <Npc />
           <Back2Top />
