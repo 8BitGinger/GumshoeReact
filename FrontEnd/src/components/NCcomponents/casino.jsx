@@ -45,31 +45,33 @@ const casino = () => {
           <div className="column">
             <div className="right">
               <img src={numbersNorton} alt="Numbers Norton" />
-              &quot;Numbers&quot; Norton: A wizened old man with a mind sharper
-              than a broken bottle, Numbers isn&apos;t your typical casino
-              patron. He doesn&apos;t gamble, he analyzes. Everyone believe
-              Numbers is a genius, others a paranoid recluse obsessed with
-              patterns. The truth likely lies somewhere in between.
-              <br />*
+              <span className="bold"> &quot;Numbers&quot; Norton: </span> A
+              wizened old man with a mind sharper than a broken bottle, Numbers
+              isn&apos;t your typical casino patron. He doesn&apos;t gamble, he
+              analyzes. Everyone believe Numbers is a genius, others a paranoid
+              recluse obsessed with patterns. The truth likely lies somewhere in
+              between.
             </div>
 
             <div className="left">
               <img src={esmereldaDiaz} alt="Esmeralda Diaz" />
-              Esmeralda &quot;The Duchess&quot; Diaz: A woman who oozes glamour
-              and danger in equal measure, With a past as murky as the bootleg
-              liquor she once peddled, she&apos;s climbed the ranks from
-              alluring showgirl to the casino&apos;s iron-fisted boss.
-              Esmeralda&apos;s smile can disarm a gunman, but her ice-cold stare
-              can freeze a room.
+              <span className="bold">
+                Esmeralda &quot;The Duchess&quot; Diaz:{' '}
+              </span>{' '}
+              A woman who oozes glamour and danger in equal measure, With a past
+              as murky as the bootleg liquor she once peddled, she&apos;s
+              climbed the ranks from alluring showgirl to the casino&apos;s
+              iron-fisted boss. Esmeralda&apos;s smile can disarm a gunman, but
+              her ice-cold stare can freeze a room.
             </div>
             <div className="middle">
               <img src={luckyMoretti} alt="Lucky Luciano Moretti" />
-              &quot;Lucky&quot; Luciano Moretti: A wiry card shark with a grin
-              as crooked as his dice throws, Lucky Luciano is a legend in The
-              Block. He first appeared in Neon City ten years ago, a penniless
-              drifter with nothing but a deck of cards and a gambler&apos;s
-              spirit. He&apos;s gifted, but his loyalties lie with himself.
-              <br />*
+              <span className="bold"> &quot;Lucky&quot; Luciano Moretti: </span>
+              A wiry card shark with a grin as crooked as his dice throws, Lucky
+              Luciano is a legend in The Block. He first appeared in Neon City
+              ten years ago, a penniless drifter with nothing but a deck of
+              cards and a gambler&apos;s spirit. He&apos;s gifted, but his
+              loyalties lie with himself.
             </div>
           </div>
         </div>

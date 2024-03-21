@@ -42,12 +42,12 @@ const rustyTrombone = () => {
           <div className="column">
             <div className="left">
               <img src={popsJohnson} alt="pops johnson" />
-              &quot;Pops&quot; Johnson, the owner, a gruff man with a heart as
-              worn as the piano keys on stage. He knew everyone who shuffled
-              through – the heartbroken saxophonist drowning his sorrows, the
-              aspiring singer with a voice as raw as a diamond in the rough, and
-              the occasional shady figure with a taste for the blues and a
-              secret to keep hidden.
+              <span className="bold">Pops&quot; Johnson,</span> the owner, a
+              gruff man with a heart as worn as the piano keys on stage. He knew
+              everyone who shuffled through – the heartbroken saxophonist
+              drowning his sorrows, the aspiring singer with a voice as raw as a
+              diamond in the rough, and the occasional shady figure with a taste
+              for the blues and a secret to keep hidden.
               <br />*
             </div>
 
@@ -56,21 +56,23 @@ const rustyTrombone = () => {
                 src={rustyTrombonePic}
                 alt="The Squeaky Saxophone Jazz Club"
               />
-              The club itself was a relic, a two-story building with peeling
-              paint and a rickety fire escape clinging to its side like a
-              forgotten dream. Dimly lit by flickering bulbs and mismatched
-              lampshades, the walls were adorned with faded photographs of
-              long-gone jazz legends, their faces etched with the bittersweet
-              beauty of a life lived on the edge of a melody.
+              <span className="bold">The Squeaky Saxophone</span> was a relic, a
+              two-story building with peeling paint and a rickety fire escape
+              clinging to its side like a forgotten dream. Dimly lit by
+              flickering bulbs and mismatched lampshades, the walls were adorned
+              with faded photographs of long-gone jazz legends, etched with the
+              bittersweet beauty of a life lived on the edge of a melody.
             </div>
             <div className="right">
               <img src={band} alt="Smoky Joe Miller Band" />
-              Occupying the dimly lit stage of the Squeaky Saxophone most nights
-              was &quot;Smoky&quot; Joe Miller&apos;s Ragtime Renegades, a
-              ragtag band of veterans who poured their hearts and struggles into
-              every note.The band&apos;s namesake, Joe was a wiry man with a
-              perpetually ash-stained face and a voice as raspy as a rusty
-              hinge. He&apos;d seen it all, and made it into song!
+              <span className="bold">
+                &quot;Smoky&quot; Joe Miller&apos;s Ragtime Renegades,
+              </span>{' '}
+              occupies the dimly lit stage most nights. They were a ragtag band
+              of veterans who poured their hearts and struggles into every note.
+              Joe was a wiry man with a perpetually ash-stained face and a voice
+              as raspy as a rusty hinge. He&apos;d seen it all, and made it into
+              song!
               <br />*
             </div>
           </div>

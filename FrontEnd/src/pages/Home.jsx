@@ -10,8 +10,8 @@ import HowToPlay from '../components/HowToPlay';
 import GraphicBanner from '../components/GraphicBanner';
 import Players from '../components/Players';
 import StoryTellers from '../components/STs';
-import Footer from '../components/footer';
 import logoImage from '../assets/images/document-logo-sepia2.png';
+import Back2Top from '../components/Back2Top';
 
 const Home = () => {
   return (
@@ -31,11 +31,13 @@ const Home = () => {
       <TheStory />
       <GraphicBanner />
       <HowToPlay />
+      <Back2Top />
       <Players />
+      <Back2Top />
       <StoryTellers />
+      <Back2Top />
       <Downloads />
       <DevCard />
-      <Footer />
     </div>
   );
 };

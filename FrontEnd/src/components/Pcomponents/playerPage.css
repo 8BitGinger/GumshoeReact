@@ -5,6 +5,7 @@
   justify-content: center;
   width: 80vw;
   flex-direction: column;
+  margin: auto;
 }
 .charMain img {
   width: 100%;

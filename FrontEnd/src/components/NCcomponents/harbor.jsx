@@ -46,37 +46,37 @@ const harbor = () => {
                 src={harborSingle}
                 alt="man in trench-coat overlooking harbor"
               />
-              The docks themselves were a haven for those who operated on the
-              fringes. Gruff longshoremen, their muscles knotted from years of
-              back-breaking labor, unloaded cargo with a practiced indifference,
-              their eyes always scanning for opportunities to skim. Shady
-              figures, perpetually n shadows, lurked in warehouses brimming with
-              exotic goods and questionable merchandise. Here, deals were struck
-              with handshakes and terse nods, loyalty as fleeting as the ocean
-              currents.
+              <span className="bold">The docks</span> themselves were a haven
+              for those who operated on the fringes. Gruff longshoremen, their
+              muscles knotted from years of back-breaking labor, unloaded cargo
+              with a practiced indifference, their eyes always scanning for
+              opportunities to skim. Shady figures, perpetually n shadows,
+              lurked in warehouses brimming with exotic goods and questionable
+              merchandise. Here, deals were struck with handshakes and terse
+              nods, loyalty as fleeting as the ocean currents.
             </div>
             <div className="right">
               <img src={carGoods} alt="classic sports car" />
-              Under the watchful eyes of rusted cranes and the oily sheen of the
-              water, a black market thrived. Stacks of uncut diamonds glittered
-              like fallen stars, their brilliance a stark contrast to the dull
-              gleam of pilfered weapons. And tucked away in a shadowed corner,
-              shrouded in an oily tarp, might lie the ultimate prize – a
-              gleaming Skylark automobile, fresh off a freighter and ready to
-              disappear into the neon labyrinth of the city.
-              <br />*
+              <span className="bold">The Black Market</span> thrived under the
+              watchful eyes of rusted cranes and the oily sheen of the water.
+              Stacks of uncut diamonds glittered like fallen stars, their
+              brilliance a stark contrast to the dull gleam of pilfered weapons.
+              And tucked away in a shadowed corner, shrouded in an oily tarp,
+              might lie the ultimate prize – a gleaming Skylark automobile,
+              fresh off a freighter and ready to disappear into the neon
+              labyrinth of the city.
             </div>
 
             <div className="left">
               <img src={captainCutlass} alt="captain cutlass" />
-              Captain Kim commands the &quot;Full Moon,&quot; a rickety
-              freighter that reeked more of fish and desperation than luxury.
-              Rumors swirled about her past, whispers of a pirate captain on a
-              hidden sea, though Kim herself remained tight-lipped, her only
-              confidante a talking parrot with a vocabulary as foul as the
-              harbor itself. The only constant about Kim was a silver amulet
-              that dangled from her neck, its inscription an enigma even to the
-              most skilled codebreakers.
+              <span className="bold">Captain Kim</span> commands the &quot;Full
+              Moon,&quot; a rickety freighter that reeked more of fish and
+              desperation than luxury. Rumors swirled about her past, whispers
+              of a pirate captain on a hidden sea, though Kim herself remained
+              tight-lipped, her only confidante a talking parrot with a
+              vocabulary as foul as the harbor itself. The only constant about
+              Kim was a silver amulet that dangled from her neck, its
+              inscription an enigma even to the most skilled codebreakers.
             </div>
           </div>
         </div>
