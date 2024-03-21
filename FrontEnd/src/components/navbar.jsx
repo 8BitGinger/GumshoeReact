@@ -32,31 +32,34 @@ export default class Navbar extends Component {
               </MenuItem>
               <MenuItem
                 name="player"
+                className="nav-link"
                 active={activeItem === 'player'}
                 onClick={this.handleItemClick}
                 as={Link}
                 to="/player"
               >
-                <Icon className="nav-link" name="male" />
+                <Icon name="male" />
               </MenuItem>
 
               <MenuItem
                 name="storyTeller"
+                className="nav-link"
                 active={activeItem === 'storyTeller'}
                 onClick={this.handleItemClick}
                 as={Link}
                 to="/storyTeller"
               >
-                <Icon className="nav-link" name="book" />
+                <Icon name="book" />
               </MenuItem>
               <MenuItem
                 name="neonCity"
+                className="nav-link"
                 active={activeItem === 'neonCity'}
                 onClick={this.handleItemClick}
                 as={Link}
                 to="/neonCity"
               >
-                <Icon className="nav-link" name="map" />
+                <Icon name="map" />
               </MenuItem>
             </div>
           </Menu>

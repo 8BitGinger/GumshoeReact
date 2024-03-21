@@ -1,23 +1,18 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react';
+import Modal from './modal';
 
 const introST = () => {
   return (
     <>
-      <section className="modal-back">
-        <div className="overlayModal">
-          <article className="card pop-up">
-            <p>
-              Click the icon in the top-right start your journey as music leads
-              takes you through the story of Gumshoe. Enjoy Neon City, where
-              only the ones who can follow the rhythm hit the right note!
-            </p>
-            <button id="closeST" className="btn closeST">
-              <Icon name="close" />
-            </button>
-          </article>
-        </div>
-      </section>
+      <article className="card column">
+        <p>
+          This story is best enjoyed with a fine cigar and some some brandy, but
+          if you don&apos;t have those try playing the music and setting the
+          scene. Just click the icon in the top-right corner!
+        </p>
+        {/* <img src={barmen} alt="mysterious men at bar" /> */}
+      </article>
+      <button className="btn openModalBtn">Open</button>
     </>
   );
 };
