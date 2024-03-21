@@ -16,8 +16,8 @@ const Modal = ({ isOpen, onClose, videoUrl }) => {
   };
 
   return (
-    <div className={`modal ${modalIsOpen ? 'show' : ''}`}>
-      <div className="modal-content">
+    <header className={`modal ${modalIsOpen ? 'show' : ''}`}>
+      <button className="modal-content" type="button" onClick={handleClose}>
         {isOpen && (
           <Player
             url={videoUrl}
@@ -27,13 +27,10 @@ const Modal = ({ isOpen, onClose, videoUrl }) => {
             muted={isOpen} // Mute the video only when the modal is open
             playing={isOpen}
             onEnded={handleVideoEnded} // Autoplay only when the modal is open
-          />
+          ></Player>
         )}
-        <button className="btn btn-close" type="button" onClick={handleClose}>
-          Close
-        </button>
-      </div>
-    </div>
+      </button>
+    </header>
   );
 };
 

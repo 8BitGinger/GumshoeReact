@@ -56,8 +56,6 @@ This wasn't just about a dame; it was about unraveling a conspiracy bigger than 
 
 #### Player Page
 
--Player Page
-
 ![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-player1-rm.png)
 
 -Classes
@@ -69,8 +67,6 @@ This wasn't just about a dame; it was about unraveling a conspiracy bigger than 
 ![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-dgs-rm.png)
 
 #### Story Teller Page
-
--Story Teller Page
 
 ![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-storyteller1-rm.png)
 

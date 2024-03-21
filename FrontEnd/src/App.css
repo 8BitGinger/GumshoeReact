@@ -610,7 +610,6 @@ article img {
   left: 0;
   width: 100vw; /* Full width */
   height: 100vh; /* Full height */
-  overflow: hidden;
 }
 
 .modal-content {
