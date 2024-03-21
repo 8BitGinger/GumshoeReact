@@ -6,6 +6,9 @@ const StNav = () => {
       <nav className="neonNav" id="neonNav">
         <ul>
           <li>
+            <a href="#npcs">NPCs</a>
+          </li>
+          <li>
             <a href="#clues">Clues</a>
           </li>
           <li>
@@ -16,6 +19,9 @@ const StNav = () => {
           </li>
           <li>
             <a href="#storyGen">Story Generator</a>
+          </li>
+          <li>
+            <a href="#downloads">Downloads</a>
           </li>
           <li>
             <a href="#adventure">Adventures</a>

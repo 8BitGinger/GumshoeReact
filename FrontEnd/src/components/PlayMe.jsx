@@ -23,15 +23,11 @@ const PlayMe = () => {
       <div onClick={togglePlay}>
         {play ? (
           <>
-            <Icon className="playIcon" name="music" />
-
             <Icon className="playIcon" name="pause" />
           </>
         ) : (
           <>
             <Icon className="playIcon" name="music" />
-
-            <Icon className="playIcon" name="play" />
           </>
         )}
       </div>

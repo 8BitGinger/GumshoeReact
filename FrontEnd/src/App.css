@@ -626,7 +626,7 @@ article img {
 
 .avatar5 {
   width: 100%;
-  max-height: 600px;
+
   margin: auto;
   margin-bottom: 20px;
 }
@@ -676,29 +676,48 @@ article img {
   perspective: 1000px;
 }
 
-.develop {
+.develop,
+.develop2 {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 50px 0px;
+  width: 100%;
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+  border: 3px solid black;
 }
 
-.develop h3 {
+.develop {
+  background-image: url(./assets/images/twin-dame.png);
+}
+
+.develop2 {
+  background-image: url(./assets/images/city2.png);
+}
+
+.develop h3,
+.develop2 h3 {
   position: absolute;
-  font-size: 40px;
-  text-align: center;
-  background-color: rgba(131, 109, 109, 0.307);
+  max-width: 100%;
   min-width: 100%;
-  padding: 0;
+  height: 100%;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgba(131, 109, 109, 0.209);
+
+  padding: 30px;
   align-items: center;
   align-self: center;
 
   justify-content: center;
   display: flex;
 
-  color: rgb(228, 222, 213);
-  -webkit-text-stroke: 1px black;
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Abril Fatface', serif;
+  background-color: rgba(0, 0, 0, 0.52);
+  color: rgb(249, 251, 225);
 }
 
 .form {
@@ -840,6 +859,7 @@ article img {
   background-color: rgba(0, 0, 0, 0.685);
   border-radius: 5px;
   color: white;
+  font-size: 20px;
 }
 
 .subtitle2 {
@@ -1190,7 +1210,6 @@ h4 {
 
 .nav-link {
   text-align: center;
-  border: 2px solid black;
 }
 
 .left,
@@ -1715,7 +1734,7 @@ h4 {
 
   .dev-text p {
     font-size: 22px;
-    padding: 0;
+    padding: 2px;
   }
 
   .dice {
@@ -1954,11 +1973,6 @@ h4 {
 
   .footer p {
     background: none;
-  }
-
-  .develop h3 {
-    font-size: 20px;
-    -webkit-text-stroke: 0px;
   }
 
   .twin {

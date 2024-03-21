@@ -4,11 +4,12 @@ import Classes from '../components/Pcomponents/classes';
 import CheatSheet from '../components/Pcomponents/cheatSheet';
 import CharSheetBreak from '../components/Pcomponents/charSheetBreak';
 import Downloads from '../components//Pcomponents/downloads';
-import Footer from '../components/footer';
 import DGS from '../components/Pcomponents/DGS';
 import PenroseHeader from '../components/penroseHeader';
 import partnersPic from '../assets/images/partners.jpg';
 import backstoryPic from '../assets/images/backstory.jpg';
+import Back2Top from '../components/Back2Top';
+import PlayerNav from '../components/Pcomponents/pNav';
 
 const Player = () => {
   window.scrollTo(0, 0);
@@ -16,6 +17,7 @@ const Player = () => {
   return (
     <div className="overlay spacer" id="top">
       <section id="intro" className="container intro">
+        <PlayerNav />
         <h1>
           <PenroseHeader />
           Player Page
@@ -56,13 +58,13 @@ const Player = () => {
 
         <Classes />
         <Dice />
+        <Back2Top />
         <CheatSheet />
         <CharSheetBreak />
-
+        <Back2Top />
         <DGS />
+        <Back2Top />
         <Downloads />
-
-        <Footer />
       </section>
     </div>
   );

@@ -2,7 +2,7 @@
 
 # Gumshoe Neon City
 
-[![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-start-rm.png)](#description)
+[![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-main-rm.png)](#description)
 
 ## Description
 
@@ -18,7 +18,7 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 1. [Screenshots](#screenshots)
 1. [Links](#links)
-1. [Gameplay](#gameplay)
+1. [Technologies](#tech)
 1. [Roadmap](#roadmap)
 1. [License](#license)
 1. [Credits](#credits)
@@ -30,9 +30,9 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 ## Screenshots
 
-![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-newlogo-rm.png)
+![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-home1-rm.png)
 
-![screenshot](./FrontEnd/src/assets/images/readme/GIFMaker_me.gif)
+![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-readme.gif)
 
 <details closed>
 <summary>Click here for more!</summary>
@@ -40,21 +40,55 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 #### Main Page
 
+-Post Card View
+
 ![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-story-rm.png)
 
-![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-banner-rm.png)
+-Graphics Banner
+
+![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-graphicsBanner-rm.png)
+
+-Developer Card
+
+![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-devCard-rm.png)
 
 #### Player Page
 
-![screenshot](./FrontEnd/src/assets/images/readme/character-build.png)
+-Player Page
+
+![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-player1-rm.png)
+
+-Classes
 
 ![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-classes-rm.png)
 
+-Digital Character Sheet Maker
+
+![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-dgs-rm.png)
+
 #### Story Teller Page
 
-![screenshot](./FrontEnd/src/assets/images/readme/storyteller-clues.png)
+-Story Teller Page
+
+![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-storyteller1-rm.png)
+
+-Enemy Template
 
 ![screenshot](./FrontEnd/src/assets/images/readme/enemy-template.png)
+
+-NPC Generator
+
+![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-npcGen-rm.png)
+
+#### Neon City Page
+
+-Neon City Page
+
+![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-neoncity1-rm.png)
+
+-Detailed Locations
+
+![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-locations-rm.png)
 
 </details>
 
@@ -64,31 +98,34 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 ## Links
 
-[Deployed](https://8bitginger.github.io/gumshoe/)
+[Deployed](https://gumshoe.vercel.app/)
 
-[Repo](https://github.com/8BitGinger/gumshoe)
+[Repo](https://github.com/8BitGinger/gumshoeReact)
 
 ---
 
-<div id="gameplay"></div>
+<div id="tech"></div>
 
-## Gameplay
+## Technologies Used
 
-<details closed>
-<summary> Players </summary>
-<br>
-
-[Player Info]()
-
-</details>
-
-<details closed>
-<summary>Story Tellers</summary>
-<br>
-
-[Story Teller Info]()
-
-</details>
+```
+  "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^1.0.66",
+    "dayjs": "^1.11.10",
+    "framer": "^2.4.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.22.1",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5",
+    "use-sound": "^4.0.1",
+    "vite": "^5.1.0"
+  }
+```
 
 ---
 
@@ -98,7 +135,7 @@ Dice would roll, fists might fly, and the secrets whispered by this city would u
 
 #### Adventures
 
-Will be adding more than just the starter adventure during future development.
+Will be adding more than just the starter adventure during future development. Currently Released Chapter 1 of 3 of Neon Charade
 
 <details closed>
 <summary>Future Adventures:</summary>
@@ -150,19 +187,7 @@ Would like to add a database connection where we could do the following:
 
 - More drop downs and static options where the calculations for your character and stats are done automatically.
 
-- Character Sheet to PDF after creation
-
 - Save character to your account after Database is connected
-
-#### _Random Generator_
-
-Would like to build a random generator where Story Tellers can come and generate the following:
-
-- Random NPCs and Characteristics
-- Random Items
-- Random Buildings/Locales
-- Random Encounters
-- Random Names
 
 #### _Player Forum_
 
@@ -184,15 +209,15 @@ A form where users can make posts about the game and interact with stories, idea
 
 #### Graphics and Music:
 
-I generated the artwork and the music track from:
+I generated the bulk of the artwork and the music track from:
 [AI Test Kitchen](https://aitestkitchen.withgoogle.com/)
 
 _except_ for the Characters and Buildings in the Story Teller Page where I switched it up and used:
 [OpenArt](https://openart.ai/)
 
-It was actually quite easy and fun once I got a handle on some of the prompts. I was quite impressed with the results. _Of course it required many hours of photoshop to correct, edit, shade, and sepia-tone each image, but totally worth it!_
+It was actually quite easy and fun once I got a handle on some of the prompts. I was quite impressed with the results. _Of course it required many hours of photoshop to correct, edit, shade, and sepia-tone each image to be more cohesive to the overall project, but totally worth it!_
 
-Gumshoe Neon City logos and matching Page Logos were designed by me with assets from [pngTree](https://pngtree.com/)
+Gumshoe Neon City logos and all other graphics were designed by me!
 
 Intro screen re-mixed on: [Spline](https://spline.design/)
 
@@ -208,11 +233,13 @@ Intro screen re-mixed on: [Spline](https://spline.design/)
 
 ## Contact
 
-[Gmail](mailto:ryan.fann@gmail.com)
+#### Gmail:
+
+[![Gmail](./FrontEnd/src/assets/images/readme/gmail-gumshoe-rm.png)](mailto:ryan.fann@gmail.com)
 
 #### GitHub:
 
-[8BitGinger](https://github.com/8BitGinger)
+[![8BitGinger](./FrontEnd/src/assets/images/readme/8bit-smallContact.png)](https://github.com/8BitGinger)
 
 ---
 

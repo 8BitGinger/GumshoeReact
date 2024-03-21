@@ -3,7 +3,6 @@ import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 import logo from './document-logo-sepia2.png';
 import './playerPage.css';
-import twinDame from '../../assets/images/twin-dame.png';
 import PenroseHeader from '../penroseHeader';
 
 const DGS = () => {
@@ -25,17 +24,13 @@ const DGS = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container" id="dgs">
       <h1>
         <PenroseHeader />
         Digital Character Builder
       </h1>
-      <section className="charContainer">
-        <div className="develop">
-          <h3>Develop Your Character!</h3>
-          <img src={twinDame} className="avatar5" alt="city sign" />
-        </div>
 
+      <section className="charContainer">
         <form className="character-sheet">
           <div className="charMain">
             <img src={logo} alt="gumshoe logo" />

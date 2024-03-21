@@ -6,7 +6,7 @@ const Npc = () => {
     <section>
       <h2>Crafting NPCs</h2>
 
-      <article className="card column">
+      <article id="npcs" className="card column">
         <p>
           Bringing NPCs to life is an art, not a formula. You want them to fit
           seamlessly into the world, yet be intriguing enough to spark player

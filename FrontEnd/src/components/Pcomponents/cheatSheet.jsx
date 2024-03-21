@@ -2,7 +2,7 @@ import React from 'react';
 
 const cheatSheet = () => {
   return (
-    <section className="container">
+    <section className="container" id="charBuild">
       <h3>Character Build CheatSheet</h3>
       <div className="card column">
         <div className="half">

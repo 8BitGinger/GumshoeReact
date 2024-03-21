@@ -22,7 +22,10 @@ const DevCard = () => {
             <img src={devAvatar} alt="developer avatar" />
 
             <p>
-              I'm <span className="subtitle2">Ryan Fann, the 8BitGinger,</span>{' '}
+              <span className="subtitle2 italic bold">
+                Ryan "the 8BitGinger" Fann,
+              </span>
+              <br />
               a full-stack developer with a passion for creating immersive,
               interactive experiences.
               <br />

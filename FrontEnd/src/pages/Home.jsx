@@ -12,6 +12,8 @@ import Players from '../components/Players';
 import StoryTellers from '../components/STs';
 import logoImage from '../assets/images/document-logo-sepia2.png';
 import Back2Top from '../components/Back2Top';
+import PlayerBanner from '../components/Pcomponents/PlayerBanner';
+import StoryBanner from '../components/STcomponents/storyBanner';
 
 const Home = () => {
   return (
@@ -33,8 +35,10 @@ const Home = () => {
       <HowToPlay />
       <Back2Top />
       <Players />
+      <PlayerBanner />
       <Back2Top />
       <StoryTellers />
+      <StoryBanner />
       <Back2Top />
       <Downloads />
       <DevCard />

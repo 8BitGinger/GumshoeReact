@@ -9,7 +9,7 @@ const neonNav = () => {
             <a href="#police">City Police</a>
           </li>
           <li>
-            <a href="#penrose">Penrose Divisions</a>
+            <a href="#penrose">Penrose Division</a>
           </li>
           <li>
             <a href="#gangs">Rusty Spikes</a>

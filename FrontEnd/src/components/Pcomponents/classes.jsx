@@ -2,7 +2,7 @@ import React from 'react';
 
 const Classes = () => {
   return (
-    <div>
+    <div id="classes">
       <h3>Base Classes</h3>
       <ul className="classes">
         <div className="class">
