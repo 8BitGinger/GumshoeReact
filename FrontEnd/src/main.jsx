@@ -6,8 +6,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom/dist';
 import Player from './pages/Player';
 import StoryTeller from './pages/StoryTeller';
 import NeonCity from './pages/NeonCity';
-import Contact from './pages/Contact';
-import Landing from './pages/Landing';
 
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
@@ -21,10 +19,6 @@ const router = createBrowserRouter([
       {
         index: true,
 
-        element: <Landing />,
-      },
-      {
-        path: 'home',
         element: <Home />,
       },
       {

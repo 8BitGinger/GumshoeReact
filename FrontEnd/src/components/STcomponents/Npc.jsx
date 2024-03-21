@@ -7,6 +7,8 @@ const Npc = () => {
       <h2>Crafting NPCs</h2>
 
       <article id="npcs" className="card column">
+        <img src={combat2} alt="men in fedoras" />
+
         <p>
           Bringing NPCs to life is an art, not a formula. You want them to fit
           seamlessly into the world, yet be intriguing enough to spark player
@@ -26,7 +28,6 @@ const Npc = () => {
           specific NPCs to keep the story cohesive and give your players that
           extra reward!
         </p>
-        <img src={combat2} alt="men in fedoras" />
       </article>
 
       <div className="card4">

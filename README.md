@@ -223,6 +223,8 @@ Gumshoe Neon City logos and all other graphics were designed by me!
 
 Intro screen re-mixed on: [Spline](https://spline.design/)
 
+Neon City Intro Video created with [LeiaPix](https://www.leiapix.com/)
+
 <div align="center">
 
 ![screenshot](./FrontEnd/src/assets/images/readme/ai-readme.png)

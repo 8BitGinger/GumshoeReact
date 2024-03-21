@@ -14,6 +14,7 @@ import logoImage from '../assets/images/document-logo-sepia2.png';
 import Back2Top from '../components/Back2Top';
 import PlayerBanner from '../components/Pcomponents/PlayerBanner';
 import StoryBanner from '../components/STcomponents/storyBanner';
+import LandingModalWrapper from '../components/LandingModalWrapper';
 
 const Home = () => {
   return (
@@ -29,6 +30,8 @@ const Home = () => {
           <span className="date">☆☆☆ June 6, 1936 ☆☆☆</span>
         </h1>
       </section>
+      <LandingModalWrapper modalTitle="Watch it Again!"></LandingModalWrapper>
+
       <NewsPaper />
       <TheStory />
       <GraphicBanner />

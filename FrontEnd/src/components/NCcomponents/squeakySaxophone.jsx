@@ -14,8 +14,6 @@ const rustyTrombone = () => {
         <div className="card4 column">
           <div className="text">
             <p>
-              The Squeaky Saxophone
-              <br />
               The club itself was a relic, a two-story building with peeling
               paint and a rickety fire escape clinging to its side like a
               forgotten dream. Inside, the air hung thick with the ghosts of
