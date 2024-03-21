@@ -1,7 +1,7 @@
 import React from 'react';
 import whiskey from '../../assets/images/whiskey.png';
 
-const introST = () => {
+const IntroST = () => {
   return (
     <>
       <article className="card column">
@@ -18,4 +18,4 @@ const introST = () => {
   );
 };
 
-export default introST;
+export default IntroST;
