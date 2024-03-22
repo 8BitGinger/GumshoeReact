@@ -92,7 +92,7 @@ function LocationList() {
       <h2>Random Locations</h2>
 
       {locations.length > 0 && (
-        <ul>
+        <ul className="border1">
           {locations.map((location) => (
             <li key={location.name + time}>
               <h4>{location.name}</h4>

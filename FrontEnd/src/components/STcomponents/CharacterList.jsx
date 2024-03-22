@@ -136,7 +136,7 @@ function CharacterList() {
       {characters.length > 0 && (
         <ul>
           {characters.map((character) => (
-            <li key={character.name + time}>
+            <li className="border1" key={character.name + time}>
               <h4>{character.name}</h4>
               <p>{character.description}</p>
             </li>
