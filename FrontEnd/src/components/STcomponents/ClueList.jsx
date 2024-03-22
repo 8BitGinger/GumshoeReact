@@ -66,11 +66,11 @@ function ClueHook() {
   };
 
   return (
-    <div className="tool">
+    <div className="toolCard">
       <h2>Clues</h2>
 
       {clueHook.length > 0 && (
-        <ul>
+        <ul className="border1">
           {clueHook.map((clueHook) => (
             <li key={clueHook.clue + time}>
               <p>{clueHook.clue}</p>

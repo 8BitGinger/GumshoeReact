@@ -88,7 +88,7 @@ function LocationList() {
   };
 
   return (
-    <div className="tool">
+    <div className="toolCard">
       <h2>Random Locations</h2>
 
       {locations.length > 0 && (

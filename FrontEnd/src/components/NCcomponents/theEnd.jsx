@@ -9,11 +9,11 @@ const theEnd = () => {
         <article className="card column">
           <p>
             Use what you learned. The grime, the grit, the shadows in those
-            alleys - weave it all into a new yarn. A mystery so twisted
-            it&apos;ll leave your players sweatin&apos; and thinkin&apos; long
-            after the bar tab&apos;s settled. You&apos;re the puppet master,
-            kid, tugging at their strings, leading them deeper into the rabbit
-            hole. Remember, the real adventure starts now.
+            alleys - to get through this twisted mystery. Leave your enemies
+            sweatin&apos; and thinkin&apos; long after the bar tab&apos;s
+            settled. But remember, you&apos;re not the puppet master, kid,
+            tugging at the strings, you&apos;re just being led deeper into the
+            rabbit hole. The real adventure is just beginning!.
           </p>
           <img src={lonelyNoir} alt="walking alone in the city" />
         </article>

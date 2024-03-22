@@ -62,7 +62,7 @@
   padding: 20px 0px;
   position: relative;
   font-family: 'newsreader', sans-serif;
-  background-color: rgb(255, 253, 251);
+  background-color: rgba(255, 253, 251, 0.966);
 }
 
 .charTop {

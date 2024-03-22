@@ -11,8 +11,6 @@ import TheEnd from '../components/NCcomponents/theEnd.jsx';
 import Back2Top from '../components/Back2Top.jsx';
 import PenroseHeader from '../components/penroseHeader.jsx';
 import ModalWrapper from '../components/NCcomponents/ModalWrapper.jsx';
-import { useState } from 'react';
-import Vid from '../assets/video/gumshoe-3d_animation.mp4';
 
 const NeonCity = () => {
   window.scrollTo(0, 0);

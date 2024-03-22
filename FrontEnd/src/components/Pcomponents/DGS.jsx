@@ -30,7 +30,7 @@ const DGS = () => {
         Digital Character Builder
       </h1>
 
-      <section className="charContainer">
+      <section className="card5">
         <form className="character-sheet">
           <div className="charMain">
             <img src={logo} alt="gumshoe logo" />

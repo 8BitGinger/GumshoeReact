@@ -28,14 +28,16 @@ const storyGenerator = () => {
           for you in the neon haze.
         </p>
       </article>
-      <article className="toolCard">
-        <CharacterList />
+      <section className="cardWide">
+        <div className="tool">
+          <CharacterList />
 
-        <LocationList />
+          <LocationList />
 
-        <StoryHook />
-        <ClueList />
-      </article>
+          <StoryHook />
+          <ClueList />
+        </div>
+      </section>
       <article className="card column">
         <p>
           Look, chum, building a case ain&apos;t easy. You need more than just

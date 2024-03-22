@@ -8,7 +8,10 @@ const Landing = () => {
       <div className="backer">
         <header className="header" id="landing">
           <Link to="/">
-            <Spline scene="https://prod.spline.design/BfM7yoUC3C3vMheS/scene.splinecode" />
+            <Spline
+              className="splineVid"
+              scene="https://prod.spline.design/BfM7yoUC3C3vMheS/scene.splinecode"
+            />
           </Link>
         </header>
       </div>

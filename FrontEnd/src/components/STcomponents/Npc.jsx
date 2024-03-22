@@ -38,21 +38,23 @@ const Npc = () => {
             __NPC Example Traits:__
             <br />
             <br />
-            • Name Dropper: This fast-talking hustler peppers every conversation
-            with the names of supposed high rollers and big shots, hoping to
-            impress or intimidate.
-            <br />
-            • Nervous Nelly: This jittery fellow can&apos;t keep his hands
-            still, constantly fiddling with tools or gadgets. His nervous energy
-            is both endearing and slightly unsettling.
-            <br />
-            • Fortuneteller: This flamboyant fortune teller makes predictions
-            that are hilariously wrong, but some have an uncanny knack of coming
-            true.
-            <br />• Conspiracy Theorist: This grizzled veteran with believes the
-            government is controlled by aliens infiltrating the city. He peppers
-            his conversations with nonsensical ramblings, but occasionally drops
-            a nugget of truth amidst the madness.
+            <span className="lowLight">
+              • Name Dropper: This fast-talking hustler peppers every
+              conversation with the names of supposed high rollers and big
+              shots, hoping to impress or intimidate.
+              <br />
+              • Nervous Nelly: This jittery fellow can&apos;t keep his hands
+              still, constantly fiddling with tools or gadgets. His nervous
+              energy is both endearing and slightly unsettling.
+              <br />
+              • Fortuneteller: This flamboyant fortune teller makes predictions
+              that are hilariously wrong, but some have an uncanny knack of
+              coming true.
+              <br />• Conspiracy Theorist: This grizzled veteran with believes
+              the government is controlled by aliens infiltrating the city. He
+              peppers his conversations with nonsensical ramblings, but
+              occasionally drops a nugget of truth amidst the madness.
+            </span>
           </p>
         </div>
       </div>

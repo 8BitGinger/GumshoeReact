@@ -69,11 +69,11 @@ const harbor = () => {
 
             <div className="left">
               <img src={captainCutlass} alt="captain cutlass" />
-              <span className="bold">Captain Kim</span> commands the &quot;Full
-              Moon,&quot; a rickety freighter that reeked more of fish and
-              desperation than luxury. Rumors swirled about her past, whispers
-              of a pirate captain on a hidden sea, though Kim herself remained
-              tight-lipped, her only confidante a talking parrot with a
+              <span className="bold">Captain "Cutlass" Kim</span> commands the
+              &quot;Full Moon,&quot; a rickety freighter that reeked more of
+              fish and desperation than luxury. Rumors swirled about her past,
+              whispers of a pirate captain on a hidden sea, though Kim herself
+              remained tight-lipped, her only confidante a talking parrot with a
               vocabulary as foul as the harbor itself. The only constant about
               Kim was a silver amulet that dangled from her neck, its
               inscription an enigma even to the most skilled codebreakers.

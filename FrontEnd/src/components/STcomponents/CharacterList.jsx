@@ -130,7 +130,7 @@ function CharacterList() {
   };
 
   return (
-    <div className="tool">
+    <div className="toolCard">
       <h2>NPCs</h2>
 
       {characters.length > 0 && (

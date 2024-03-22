@@ -35,7 +35,7 @@ function StoryHook() {
   };
 
   return (
-    <div className="tool">
+    <div className="toolCard">
       <h2>Missions</h2>
 
       {storyHook.length > 0 && (
