@@ -70,9 +70,9 @@ function ClueHook() {
       <h2>Clues</h2>
 
       {clueHook.length > 0 && (
-        <ul className="border1">
+        <ul>
           {clueHook.map((clueHook) => (
-            <li key={clueHook.clue + time}>
+            <li className="border1" key={clueHook.clue + time}>
               <p>{clueHook.clue}</p>
             </li>
           ))}

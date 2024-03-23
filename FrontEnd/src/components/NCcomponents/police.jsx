@@ -7,7 +7,7 @@ const police = () => {
   return (
     <section className="container" id="police">
       <div>
-        <h2>The Neon City Police:</h2>
+        <h2>The N.C.P.D. :</h2>
 
         <article className="card column">
           <img src={lawman} alt="police officer" />

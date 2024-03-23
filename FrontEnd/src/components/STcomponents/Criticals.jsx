@@ -17,8 +17,8 @@ const Criticals = () => {
           a critical block and the attack is not only blocked or dodged, but
           they gain an Advantage Attack.
           <br />
-          If the player Attack is higher than the players, but the player rolls
-          Critical Dodge then it is still considered a miss!
+          If the Attack is higher than the players, but the player rolls a
+          Critical Dodge then it is still considered a successful dodge!
           <br />
         </p>
         <img src={critical2} alt="d20" />

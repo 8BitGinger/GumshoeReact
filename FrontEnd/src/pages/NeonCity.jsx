@@ -10,7 +10,7 @@ import NeonNav from '../components/NCcomponents/neonNav.jsx';
 import TheEnd from '../components/NCcomponents/theEnd.jsx';
 import Back2Top from '../components/Back2Top.jsx';
 import PenroseHeader from '../components/penroseHeader.jsx';
-import ModalWrapper from '../components/NCcomponents/ModalWrapper.jsx';
+import IntroCard from '../components/NCcomponents/introCard.jsx';
 
 const NeonCity = () => {
   window.scrollTo(0, 0);
@@ -24,9 +24,9 @@ const NeonCity = () => {
           <br />
           The World of Gumshoe:
         </h1>
-        <ModalWrapper modalTitle="Watch it Again!"></ModalWrapper>
 
         <NeonNav />
+        <IntroCard />
         <Police />
         <Penrose />
         <Gangs />

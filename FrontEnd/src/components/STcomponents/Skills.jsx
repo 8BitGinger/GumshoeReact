@@ -20,8 +20,9 @@ const Skill = () => {
           Hand&rdquo; and watch the suspects spill their guts faster than a
           two-dollar bottle of bootleg hooch.
           <br />
-          Skill Checks are performed by using a D20 and adding the appropriate
-          Skill Bonus. The Story Teller will set the difficulty of the check.
+          Skill Checks are performed by using your Percent Dice and adding the
+          appropriate Skill Bonus. The Story Teller will determine the
+          difficulty of the check.
         </p>
         <img src={townsfolk} alt="people" />
       </article>

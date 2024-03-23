@@ -55,6 +55,8 @@ const Npc = () => {
               peppers his conversations with nonsensical ramblings, but
               occasionally drops a nugget of truth amidst the madness.
             </span>
+            <br />
+            Check the Story Generator Section to generate some quick ideas!
           </p>
         </div>
       </div>

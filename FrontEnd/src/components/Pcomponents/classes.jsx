@@ -7,6 +7,9 @@ const Classes = () => {
 
       <div id="classes" className="cardWide">
         <ul className="classes">
+          <div className="row">
+            <h2>Class Template</h2>
+          </div>
           <div className="class">
             <li>♢Private Eye♢</li>
 
