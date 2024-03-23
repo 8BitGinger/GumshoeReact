@@ -8,3 +8,21 @@
   background-color: rgba(28, 28, 28, 0.859);
   z-index: 999;
 }
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #680f0f;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1c1c1c;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #ca1717;
+}

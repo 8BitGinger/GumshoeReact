@@ -39,9 +39,9 @@ function StoryHook() {
       <h2>Missions</h2>
 
       {storyHook.length > 0 && (
-        <ul className="border1">
+        <ul>
           {storyHook.map((storyHook) => (
-            <li key={storyHook.story + time}>
+            <li className="border1" key={storyHook.story + time}>
               <p>{storyHook.story}</p>
             </li>
           ))}
