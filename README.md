@@ -235,11 +235,19 @@ Neon City Intro Video created with [LeiaPix](https://www.leiapix.com/)
 
 #### Gmail:
 
+<div align="center">
+
 [![Gmail](./FrontEnd/src/assets/images/readme/gmail-gumshoe-rm.png)](mailto:ryan.fann@gmail.com)
+
+</div>
 
 #### GitHub:
 
+<div align="center">
+
 [![8BitGinger](./FrontEnd/src/assets/images/readme/8bit-smallContact.png)](https://github.com/8BitGinger)
+
+</div>
 
 ---
 
