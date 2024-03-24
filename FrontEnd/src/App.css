@@ -1848,11 +1848,6 @@ h4 {
     max-height: 100%;
   }
 
-  .abs {
-    top: 0;
-    width: 95%;
-  }
-
   .rel img {
     min-width: 200px;
   }
