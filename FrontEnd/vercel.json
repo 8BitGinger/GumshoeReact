@@ -5,8 +5,6 @@
     { "src": "/neonCity", "dest": "/neonCity" },
     { "src": "/storyTeller", "dest": "/storyTeller" },
     { "src": "/player", "dest": "/player" },
-    { "src": "/neonCity/:id", "dest": "/neonCity/:id" },
-    { "src": "/storyTeller/:id", "dest": "/storyTeller/:id" },
     { "src": "/player/:id", "dest": "/player/:id" }
   ]
 }
