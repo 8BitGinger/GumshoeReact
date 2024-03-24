@@ -16,8 +16,16 @@ const LandingModalWrapper = ({ children, initialState = true, modalTitle }) => {
     if (isFirstLoad === false) {
       setIsOpen(false);
     }
-    setIsFirstLoad(false);
+
+    changeState();
   }, [isFirstLoad]);
+
+  const changeState = () => {
+    setTimeout(() => {
+      setIsFirstLoad(false);
+      initialState = false;
+    }, 20000);
+  };
 
   // Dependency on isFirstLoad state
 
