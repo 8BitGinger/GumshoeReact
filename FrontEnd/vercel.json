@@ -1,10 +1,3 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
-
-  "routes": [
-    { "src": "/neonCity", "dest": "/neonCity" },
-    { "src": "/storyTeller", "dest": "/storyTeller" },
-    { "src": "/player", "dest": "/player" },
-    { "src": "/player/:id", "dest": "/player/:id" }
-  ]
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
