@@ -1,9 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Modal from './LandingModal';
 import Vid from '../assets/video/gumshoe-3d_animation.mp4';
 
 const LandingModalWrapper = ({ children, initialState = true, modalTitle }) => {
   const [isOpen, setIsOpen] = useState(initialState);
+  const [isFirstLoad, setIsFirstLoad] = useState(initialState); // Track first load state
+
+  console.log(isFirstLoad);
+
+  useEffect(() => {
+    if (isFirstLoad === true) {
+      setIsOpen(true);
+    }
+
+    if (isFirstLoad === false) {
+      setIsOpen(false);
+    }
+    setIsFirstLoad(false);
+  }, [isFirstLoad]);
+
+  // Dependency on isFirstLoad state
 
   const toggleModal = () => {
     setIsOpen(!isOpen);

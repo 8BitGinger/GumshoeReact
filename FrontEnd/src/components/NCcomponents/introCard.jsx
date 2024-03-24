@@ -21,8 +21,8 @@ const introCard = () => {
             <Player
               url={videoUrl}
               controls={true} // Allow user control after initial playback
-              muted="true"
-              playing="true"
+              muted={true}
+              playing={true}
             ></Player>
           </div>
         </article>
