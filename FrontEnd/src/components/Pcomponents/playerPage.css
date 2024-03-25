@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap');
 
-.charContainer {
-  display: flex;
-  justify-content: center;
-  width: 80vw;
-  flex-direction: column;
-  margin: auto;
-  background-color: rgba(191, 179, 163, 0.854);
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
 .charMain img {
   width: 100%;
   max-width: 300px;
@@ -27,12 +17,33 @@
 .download-btn {
   width: fit-content;
   margin: 10px auto;
-  background-color: bisque;
+  background-color: rgb(247, 229, 206);
   border-radius: 3px;
   padding: 5px;
   cursor: pointer;
   font-size: 20px;
   font-family: 'abril fatface', cursive;
+}
+
+.download-btn2 {
+  width: fit-content;
+  margin: 10px auto;
+  background-color: rgb(234, 233, 212);
+  border-radius: 50%;
+  border: 3px solid black;
+  padding: 0px;
+  padding-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'abril fatface', cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-btn2 img {
+  max-width: 75px;
 }
 
 .download-btn:hover {
@@ -66,6 +77,7 @@
 }
 
 .charTop {
+  justify-content: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -141,13 +153,14 @@
 .character-sheet input,
 .character-sheet textarea,
 .character-sheet select {
-  background-color: rgb(233, 233, 233);
+  background-color: transparent;
+  border: 1px solid rgb(168, 167, 165);
   border-radius: 5px;
   margin: 3px;
 }
 
 .charMain {
-  width: 70%;
+  width: 80%;
 }
 
 .bar3 h2 {
@@ -286,5 +299,16 @@
     width: 100%;
     margin: auto;
     height: 25px;
+  }
+
+  .download-btn2 {
+    max-height: 100px;
+    max-width: 130px;
+  }
+
+  .download-btn2 img {
+    max-width: 50px;
+    height: 100px;
+    padding-left: 14px;
   }
 }

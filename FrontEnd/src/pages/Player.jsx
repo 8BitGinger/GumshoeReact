@@ -10,6 +10,7 @@ import partnersPic from '../assets/images/partners.jpg';
 import backstoryPic from '../assets/images/backstory.jpg';
 import Back2Top from '../components/Back2Top';
 import PlayerNav from '../components/Pcomponents/pNav';
+import Skills from '../components/STcomponents/Skills';
 
 const Player = () => {
   window.scrollTo(0, 0);
@@ -57,6 +58,8 @@ const Player = () => {
         </article>
 
         <Classes />
+
+        <Skills />
         <Dice />
         <Back2Top />
         <CheatSheet />

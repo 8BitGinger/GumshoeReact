@@ -18,7 +18,7 @@ const cheatSheet = () => {
             your character.
             <br />
             <br />
-            3 - Apply the starting 9 additional Skill Points to any category you
+            3 - Apply the starting 7 additional Skill Points to any category you
             see fit. Remember each Skill can only have a Max of 5 Skill Points.
             Any points you don&apos;t spend can be applied to your HP!
             <br />

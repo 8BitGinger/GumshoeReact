@@ -4,7 +4,7 @@ import d20 from '../../assets/images/d20.png';
 
 const Skill = () => {
   return (
-    <section>
+    <section id="skills">
       <h2>Skills</h2>
       <article className="card column">
         <p>
@@ -13,7 +13,7 @@ const Skill = () => {
           a seasoned grifter wouldn&apos;t be caught dead juggling bowling pins,
           you gotta pick skills that fit your backstory like a well-worn fedora.
           <br />
-          Here&apos;s the deal: you start with 9 shiny skill points to dish out
+          Here&apos;s the deal: you start with 7 shiny skill points to dish out
           however you see fit. Maybe your character&apos;s a wisecracking
           detective with a silver tongue and a knack for picking pockets. Pump
           those points into &rdquo;Persuasion&rdquo; and &rdquo;Sleight of

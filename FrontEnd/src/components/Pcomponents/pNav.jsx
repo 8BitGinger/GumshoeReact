@@ -9,6 +9,9 @@ const pNav = () => {
             <a href="#classes">Classes</a>
           </li>
           <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
             <a href="#charBuild">Character Build</a>
           </li>
           <li>
