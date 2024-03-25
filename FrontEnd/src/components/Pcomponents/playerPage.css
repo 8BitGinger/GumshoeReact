@@ -55,7 +55,7 @@
   justify-content: center;
   font-size: 15px;
   width: 750px;
-  height: 750px;
+  height: fit-content;
   max-width: 100%;
   margin: 25px auto;
   flex-wrap: wrap;
@@ -82,10 +82,7 @@
 .block1 {
   width: 33%;
   display: flex;
-}
-
-.money input {
-  height: 50px;
+  flex-direction: column;
 }
 
 .character-sheet input {
@@ -101,17 +98,18 @@
   width: 100%;
 }
 
-.money input,
-.money label {
-  width: 50%;
-}
-
 .bar2 {
   margin: auto;
 }
 
 .bar2 textarea {
   width: 100%;
+}
+
+.bar2 p,
+.bar3 p {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .bar2 h2 {
@@ -134,15 +132,10 @@
 }
 
 .bar3 {
-  position: absolute;
-  right: 0;
-  height: 100%;
-
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 0;
+  padding: 5px;
 }
 
 .character-sheet input,
@@ -163,19 +156,23 @@
 
 .bar3 input {
   height: 25px;
-  margin: 0;
+  margin: 5px;
   width: 35px;
+  margin-right: 10px;
 }
 
 .bar3 label {
-  margin: 0;
+  margin: auto;
+  margin-right: 0px;
   padding: 0;
 }
 
 .bar1 {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .bar1 label {
@@ -184,6 +181,10 @@
 
 .bar1 input {
   margin: 10px auto;
+}
+
+.bar1 textarea {
+  height: 70px;
 }
 
 @media screen and (max-width: 800px) {
@@ -252,6 +253,7 @@
     height: 25px;
     margin: auto;
   }
+
   .character-sheet input {
     width: 100%;
   }

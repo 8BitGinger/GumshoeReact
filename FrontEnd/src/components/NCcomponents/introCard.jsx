@@ -17,8 +17,9 @@ const introCard = () => {
             you can count on is that nothing is as it seems. So Welcome, to Neon
             City Partner!
           </p>
-          <div className="video">
+          <div className="video-container">
             <Player
+              className="video"
               url={videoUrl}
               controls={true} // Allow user control after initial playback
               muted={true}

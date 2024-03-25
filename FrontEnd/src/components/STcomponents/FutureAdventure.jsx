@@ -51,12 +51,12 @@ const FutureAdventure = () => {
           The Amazon humidity hung heavy in Rio, a suffocating cloak over the
           vibrant chaos. Christ the Redeemer, its skeletal form reaching towards
           the hazy sky, offered no solace. Here, in 1936 Rio, the samba pulsed
-          with a darker rhythm. I, a weary gumshoe used to the grit of New York
+          with a darker rhythm. I, a weary gumshoe used to the grit of Neon
           City, had arrived for some sun-drenched R&amp;R. But past sins are
           like stray bullets, they have a way of finding you, even in paradise.
           A face from a forgotten case materialized across the casino floor –
-          Frankie &quot;The Fox&quot; Moretti, a hood I put away back in
-          &apos;32. He shouldn&apos;t be here, breathing, radiating barely
+          Frankie &quot;The Fox&quot; Moretti, the brother of a man I once
+          killed. He shouldn&apos;t be here, breathing, radiating barely
           contained rage. Looks like my Rio vacation just took a sharp turn into
           a labyrinth of showgirls with deadly secrets, a murder threatening to
           ignite a war, and Frankie &quot;The Fox&quot; Moretti thirsting for

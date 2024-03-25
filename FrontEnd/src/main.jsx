@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom/dist';
 import Player from './pages/Player';
 import StoryTeller from './pages/StoryTeller';
 import NeonCity from './pages/NeonCity';
+import DiceRoller from './pages/DiceRoller';
 
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: '/neonCity',
         element: <NeonCity />,
+      },
+      {
+        path: '/diceRoller',
+        element: <DiceRoller />,
       },
     ],
   },

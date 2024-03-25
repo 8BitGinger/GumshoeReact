@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Modal from './LandingModal';
-import Vid from '../assets/video/gumshoe-3d_animation.mp4';
 
-const LandingModalWrapper = ({ children, initialState = true, modalTitle }) => {
+const LandingModalWrapper = ({ children, initialState, modalTitle }) => {
   const [isOpen, setIsOpen] = useState(initialState);
-  const [isFirstLoad, setIsFirstLoad] = useState(initialState); // Track first load state
+  const [isFirstLoad, setIsFirstLoad] = useState(true); // Track first load state
 
   console.log(isFirstLoad);
 
@@ -16,16 +15,13 @@ const LandingModalWrapper = ({ children, initialState = true, modalTitle }) => {
     if (isFirstLoad === false) {
       setIsOpen(false);
     }
-
-    changeState();
   }, [isFirstLoad]);
 
-  const changeState = () => {
-    setTimeout(() => {
-      setIsFirstLoad(false);
-      initialState = false;
-    }, 20000);
-  };
+  // const changeState = () => {
+  //   setTimeout(() => {
+  //     setIsFirstLoad(false);
+  //   }, 15000);
+  // };
 
   // Dependency on isFirstLoad state
 
@@ -35,10 +31,22 @@ const LandingModalWrapper = ({ children, initialState = true, modalTitle }) => {
 
   return (
     <>
-      <button className="btn btn2" type="button" onClick={toggleModal}>
-        {modalTitle || 'Open Video Modal'}
+      <button
+        id="landModal"
+        className="btn btn2"
+        type="button"
+        onClick={toggleModal}
+      >
+        {modalTitle || 'Gumshoe Clue Screen'}
       </button>
-      {isOpen && <Modal isOpen={isOpen} onClose={toggleModal} videoUrl={Vid} />}
+      {isOpen && (
+        <Modal
+          isOpen={isOpen}
+          initialState={initialState}
+          onClose={toggleModal}
+          isFirstLoad={isFirstLoad}
+        />
+      )}
     </>
   );
 };
