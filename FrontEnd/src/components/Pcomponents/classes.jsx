@@ -27,11 +27,11 @@ const Classes = () => {
             <ol>
               Starting Equipment
               <li>Magnifying Glass</li>
-              +1 to Spot
+              +1 to Perception
               <li>Revolver</li>
               D8 Damage
-              <li>Notebook</li>
-              +1 to Investigation
+              <li>Cigarettes</li>
+              +1 to Intimidation
             </ol>
           </div>
           <div className="class">

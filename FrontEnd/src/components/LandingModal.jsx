@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import Player from 'react-player'; // Assuming you're using react-player
+import { useState } from 'react';
 import Landing from '../pages/Landing';
 
 const LandingModal = ({ isOpen, onClose, videoUrl }) => {
@@ -9,11 +8,6 @@ const LandingModal = ({ isOpen, onClose, videoUrl }) => {
   const handleClose = () => {
     setModalIsOpen(false);
     onClose && onClose(); // Call the external onClose function if provided
-  };
-
-  const handleVideoEnded = () => {
-    // Restart the video playback when it finishes
-    setIsOpen(true); // Keep the modal open for looping
   };
 
   return (

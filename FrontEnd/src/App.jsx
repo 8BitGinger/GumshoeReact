@@ -5,15 +5,13 @@ import PlayMe from './components/PlayMe';
 
 function App() {
   return (
-    <>
-      <div className="backer">
-        <Navbar />
-        <PlayMe />
-        <main className="page-container">
-          <Outlet />
-        </main>
-      </div>
-    </>
+    <div className="backer">
+      <Navbar />
+      <PlayMe />
+      <main className="page-container">
+        <Outlet />
+      </main>
+    </div>
   );
 }
 

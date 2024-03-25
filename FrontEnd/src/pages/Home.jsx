@@ -1,7 +1,7 @@
 // import song from '../assets/audio/background2.mp3';
 // import useSound from 'use-sound';
 import { Link } from 'react-router-dom';
-// import { useRef } from 'react';
+import { useState } from 'react';
 import DevCard from '../components/DevCard';
 import Downloads from '../components/Downloads';
 import NewsPaper from '../components/NewsPaper';
@@ -17,6 +17,8 @@ import StoryBanner from '../components/STcomponents/storyBanner';
 import LandingModalWrapper from '../components/LandingModalWrapper';
 
 const Home = () => {
+  const [initialState, setInitialState] = useState(true);
+
   return (
     <div className="overlay spacer" id="top">
       <section id="intro" className="container intro">
@@ -30,7 +32,10 @@ const Home = () => {
           <span className="date">☆☆☆ June 6, 1936 ☆☆☆</span>
         </h1>
       </section>
-      <LandingModalWrapper modalTitle="Watch it Again!"></LandingModalWrapper>
+      <LandingModalWrapper
+        modalTitle="Watch it Again!"
+        initialState={initialState}
+      ></LandingModalWrapper>
 
       <NewsPaper />
       <TheStory />

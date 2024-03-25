@@ -61,6 +61,17 @@ export default class Navbar extends Component {
               >
                 <Icon name="map" />
               </MenuItem>
+
+              <MenuItem
+                name="diceRoller"
+                className="nav-link"
+                active={activeItem === 'diceRoller'}
+                onClick={this.handleItemClick}
+                as={Link}
+                to="/diceRoller"
+              >
+                <Icon name="th" />
+              </MenuItem>
             </div>
           </Menu>
         </aside>
