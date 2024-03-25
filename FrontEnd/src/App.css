@@ -940,7 +940,7 @@ article img {
 }
 
 .dice2 button:hover {
-  box-shadow: 0px 0px 10px 5px rgba(122, 13, 13, 0.8);
+  box-shadow: 0px 0px 10px 5px rgb(251, 251, 251);
 }
 
 .box2:hover {
@@ -1083,6 +1083,25 @@ article img {
 
 .italic {
   font-style: italic;
+}
+
+.contact-form {
+  width: 100%;
+  margin: auto;
+}
+
+.contact-form label {
+  font-size: 25px;
+  margin: 10px;
+  font-family: 'abril fatface', cursive;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background-color: rgba(250, 243, 234, 0.814);
+  border: 2px dotted rgb(54, 11, 11);
+  width: 80%;
+  border-radius: 8px;
 }
 
 .col {
@@ -1634,6 +1653,9 @@ h4 {
   margin-top: 25px;
   margin-bottom: 10px;
   font-size: 25px;
+}
+
+.contact-form img {
 }
 
 .toolCard h2 {
@@ -2340,5 +2362,12 @@ h4 {
   .play-me {
     right: 10;
     top: 90%;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+  #contactForm {
+    height: 70vh;
   }
 }

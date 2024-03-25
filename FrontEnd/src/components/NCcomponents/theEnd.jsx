@@ -23,7 +23,7 @@ const theEnd = () => {
           <img src={neonCityDefineCity} alt="walking alone in the city" />
 
           <p>
-            Story Tellers: You building ain&apos;t sandcastles, chum and this
+            Story Tellers: You aren&apos;t building sandcastles, chum and this
             ain&apos;t no sandbox game. Neon City&apos;s yours to mold.
             Characters? Plots? Twists? You&apos;re the painter, doll. I built
             the canvas, you paint the masterpiece. Just remember, Neon City

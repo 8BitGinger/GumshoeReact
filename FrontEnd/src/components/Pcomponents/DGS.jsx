@@ -4,6 +4,7 @@ import jsPDF from 'jspdf';
 import logo from './document-logo-sepia2.png';
 import './playerPage.css';
 import PenroseHeader from '../penroseHeader';
+import d20 from '../../assets/images/d20.png';
 
 function rollD20() {
   const roll = Math.floor(Math.random() * 20) + 1;
@@ -63,10 +64,12 @@ const DGS = () => {
           <PenroseHeader />
           Digital Character Builder
         </h1>
-        <button className="download-btn" onClick={rollD20}>
-          Roll Health
-        </button>
-
+        <div className="row3">
+          <button className="download-btn2" onClick={rollD20}>
+            <img src={d20} alt="d20 dice" />
+          </button>
+          <p className="card4">← Don't have a dice? Roll For Health</p>
+        </div>
         <section className="card5">
           <form id="charSheet" className="character-sheet">
             <select

@@ -5,6 +5,7 @@ import frank from '../assets/images/frank.jpg';
 import neonCity2 from '../assets/images/neoncity2.jpg';
 import agents2 from '../assets/images/agents2.jpg';
 import alienInvasion from '../assets/images/alien-invasion.jpg';
+import ruby from '../assets/images/ruby.jpg';
 
 const TheStory = () => {
   return (
@@ -52,18 +53,26 @@ const TheStory = () => {
 
       <article className="column">
         <p>
+          Another ally comes in the form of Ruby Dubois, a young, aspiring jazz
+          singer with a voice as smooth as velvet and eyes that beamed with
+          curiosity. Her dreams of the spotlight intertwine with yours as she
+          too longs to unravel the mysteries that threaten to consume Neon City.
+          Her reasons may remain unclear, but her loyalty is unwavering.
+        </p>
+        <img src={ruby} alt="Ruby Dubois" />
+      </article>
+
+      <article className="column">
+        <img src={agents2} alt="penrose agents" />
+
+        <p>
           You will be pursued by Agents of the Mysterious Penrose Division of
           the FBI. Their goals and interests unknown, they seem to be stalking
           your every move. They are a force to be reckoned with and will stop at
           nothing to keep you from uncovering the truth.
         </p>
-        <img src={agents2} alt="penrose agents" />
       </article>
       <article className="column">
-        <img
-          src={alienInvasion}
-          alt="alien invasion with man in fedora and trench coat"
-        />
         <p>
           Together, you&apos;ll navigate the neon-drenched labyrinth, armed with
           your wits, a flicker of impossible hope, and the unlikely alliance of
@@ -72,6 +81,10 @@ const TheStory = () => {
           <br />
           This is Gumshoe the Role Playing Game!
         </p>
+        <img
+          src={alienInvasion}
+          alt="alien invasion with man in fedora and trench coat"
+        />
       </article>
     </section>
   );

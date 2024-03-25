@@ -7,6 +7,7 @@ import Player from './pages/Player';
 import StoryTeller from './pages/StoryTeller';
 import NeonCity from './pages/NeonCity';
 import DiceRoller from './pages/DiceRoller';
+import Contact from './pages/Contact';
 
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: '/diceRoller',
         element: <DiceRoller />,
+      },
+      {
+        path: '/contact',
+        element: <Contact />,
       },
     ],
   },

@@ -2,6 +2,7 @@ import React from 'react';
 import { Icon } from 'semantic-ui-react';
 import devAvatar from '../assets/images/dev-avatar.png';
 import PenroseHeader from './penroseHeader';
+import { Link } from 'react-router-dom';
 
 const DevCard = () => {
   return (
@@ -33,10 +34,10 @@ const DevCard = () => {
               I specialize in web development, game/graphic design, and digital
               storytelling. <br />
               <br />
-              My goal is to create engaging, user-friendly applications that
-              bring people together and spark their imagination. <br />
+              My goal is to create engaging, user-friendly websites that bring
+              people together and spark their imagination. <br />
               <br />
-              <a href="mailto:ryan.fann@gmail.com">Let&rsquo;s chat!</a>
+              <Link to="/contact">Let&apos;s Talk!</Link>
             </p>
           </div>
           <br />
