@@ -1292,7 +1292,7 @@ h4 {
 }
 
 .stripe {
-  min-height: 450px;
+  min-height: 400px;
 }
 
 .stripe ul {
@@ -1302,13 +1302,18 @@ h4 {
 
 .stripe li {
   background-color: rgba(231, 231, 197, 0.973);
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
   border-radius: 5px;
   font-size: 22px;
   list-style: none;
   color: black;
   border: 1px solid rgb(78, 61, 24);
+}
+
+.stripe li:hover {
+  color: rgb(255, 254, 254);
+  background-color: rgb(100, 20, 20);
 }
 
 .lowLight {
@@ -1319,13 +1324,6 @@ h4 {
 .lowLight:hover {
   background-color: rgba(23, 21, 13, 0.469);
   color: white;
-}
-
-.stripe li:hover {
-  scale: 1.2;
-  color: black;
-  background-color: rgb(201, 193, 161);
-  width: 70%;
 }
 
 .dice img,
@@ -1509,6 +1507,33 @@ h4 {
   max-width: 40%;
 
   margin: auto;
+}
+
+.row6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  max-width: 50%;
+  margin: auto;
+}
+
+.card6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  max-width: 50%;
+  margin: auto;
+  padding: 10px;
+  background-image: radial-gradient(
+    rgba(245, 246, 237, 0.874),
+    rgba(234, 234, 200, 0.874)
+  );
+  border: 3px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 22px;
 }
 
 .skill img {

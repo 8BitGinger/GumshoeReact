@@ -16,9 +16,9 @@ const Skill = () => {
           Here&apos;s the deal: you start with 7 shiny skill points to dish out
           however you see fit. Maybe your character&apos;s a wisecracking
           detective with a silver tongue and a knack for picking pockets. Pump
-          those points into &rdquo;Persuasion&rdquo; and &rdquo;Sleight of
-          Hand&rdquo; and watch the suspects spill their guts faster than a
-          two-dollar bottle of bootleg hooch.
+          those points into &rdquo;Deception&rdquo; and
+          &rdquo;Intimidation&rdquo; and watch the suspects spill their guts
+          faster than a two-dollar bottle of bootleg hooch.
           <br />
           Skill Checks are performed by using your Percent Dice and adding the
           appropriate Skill Bonus. The Story Teller will determine the
