@@ -227,7 +227,7 @@ const DGS = () => {
                     type="number"
                     id="charHP"
                     name="charHP"
-                    min="0"
+                    min="-10"
                     max="35"
                     required={true}
                   />

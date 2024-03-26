@@ -48,8 +48,6 @@ const Skill = () => {
               <br />
               ● Driving - Your ability to pull off stunts
               <br />
-              ● Forgery - Your ability to create fake documents
-              <br />
               ● Intimidation - Intimidate Target
               <br />
               ● Investigation - Your ability to find clues
@@ -61,9 +59,7 @@ const Skill = () => {
               ● Performance - Your ability to entertain
               <br />
               ● Persuasion - Persuade Target
-              <br />
-              ● Seduction - Your ability to seduce
-              <br />● Sleight of Hand - Steal Item / Hide Item
+              <br />● Seduction - Seduce Target
             </p>
           </div>
         </div>
