@@ -138,7 +138,7 @@ const Classes = () => {
               Attack
               <li>D6</li>
               Defense
-              <li>12</li>
+              <li>D12</li>
             </ol>
             <ol>
               Starting Equipment
@@ -178,7 +178,7 @@ const Classes = () => {
             <ol>
               Skills
               <li>+2 to Deception</li>
-              <li>+2 to Sleight of Hand</li>
+              <li>+2 to Performance</li>
             </ol>
             <ol>
               Attack
@@ -188,10 +188,10 @@ const Classes = () => {
             </ol>
             <ol>
               Starting Equipment
-              <li>Deck of Cards</li>
-              +1 to Sleight of Hand
+              <li>Playing Cards</li>
+              +1 to Deception
               <li>Loaded Dice</li>
-              +1 to Luck
+              +1 to Performance
               <li>Knife</li>
               D6 Damage
             </ol>

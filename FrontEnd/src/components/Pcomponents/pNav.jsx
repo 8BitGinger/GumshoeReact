@@ -15,7 +15,7 @@ const pNav = () => {
             <a href="#charBuild">Character Build</a>
           </li>
           <li>
-            <a href="#dgs">DGS</a>
+            <a href="#dgs">DCS</a>
           </li>
           <li>
             <a href="#downloads">Downloads</a>

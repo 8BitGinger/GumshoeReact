@@ -59,6 +59,31 @@
   width: 100%;
 }
 
+.dcs ol {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.dcs li {
+  text-align: left;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.702);
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 5px auto;
+}
+
+.underline {
+  margin: 20px auto;
+}
+
+.dcs li:hover {
+  background-color: rgb(105, 18, 18);
+  color: white;
+}
+
 .character-sheet {
   display: flex;
   flex-direction: column;
