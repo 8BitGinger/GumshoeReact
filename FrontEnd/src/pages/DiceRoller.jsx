@@ -28,7 +28,7 @@ const DiceRoller = () => {
         </h1>
         <div className="card3">
           <h2 id="resultText">Dice Result:</h2>
-          <textarea disabled id="diceRes"></textarea>
+          <textarea disabled id="diceRes" placeholder="⚅"></textarea>
         </div>
         <div>
           <div className="card2 dice2">

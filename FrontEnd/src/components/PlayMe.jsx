@@ -6,7 +6,7 @@ const PlayMe = () => {
   const [play, setPlay] = useState(false);
   const [audio] = useState(new Audio(song));
 
-  audio.volume = 0.2;
+  audio.volume = 0.3;
   audio.loop = true;
 
   const togglePlay = () => {

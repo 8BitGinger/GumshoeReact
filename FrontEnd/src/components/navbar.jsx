@@ -72,6 +72,17 @@ export default class Navbar extends Component {
               >
                 <Icon name="th" />
               </MenuItem>
+
+              <MenuItem
+                name="contact"
+                className="nav-link"
+                active={activeItem === 'contact'}
+                onClick={this.handleItemClick}
+                as={Link}
+                to="/contact"
+              >
+                <Icon name="envelope" />
+              </MenuItem>
             </div>
           </Menu>
         </aside>

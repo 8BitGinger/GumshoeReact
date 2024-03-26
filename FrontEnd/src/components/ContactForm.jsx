@@ -14,7 +14,9 @@ function ContactForm() {
     return <p>Thanks for reaching out!</p>;
   }
   return (
-    <div className="row3">
+    <section className="row3">
+      <img src={stamp} alt="stamp" className="stamp" />
+
       <form
         id="contactForm"
         action="https://formspree.io/f/xkndbbjk"
@@ -44,7 +46,7 @@ function ContactForm() {
         </button>
       </form>
       <img src={stamp} alt="stamp" className="stamp" />
-    </div>
+    </section>
   );
 }
 

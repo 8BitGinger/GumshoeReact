@@ -27,7 +27,7 @@ const neonNav = () => {
             <a href="#harbor">Harbor District</a>
           </li>
           <li>
-            <a href="#starlite">Starlite Hotel</a>
+            <a href="#starlite">Starlite Motel</a>
           </li>
         </ul>
       </nav>

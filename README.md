@@ -32,7 +32,7 @@ This wasn't just about a dame; it was about unraveling a conspiracy bigger than 
 
 ## Screenshots
 
-![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-home1-rm.png)
+![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-Optimized-rm.png)
 
 ![screenshot](./FrontEnd/src/assets/images/readme/gumshoe-readme.gif)
 

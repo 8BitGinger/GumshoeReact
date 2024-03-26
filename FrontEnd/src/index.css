@@ -14,8 +14,8 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #680f0f;
-  border: 1px solid #000000;
+  background-color: #801414;
+  border: 1px solid #242424;
   border-radius: 20px;
 }
 

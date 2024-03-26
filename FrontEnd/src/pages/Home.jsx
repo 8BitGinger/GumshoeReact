@@ -49,7 +49,9 @@ const Home = () => {
       <StoryBanner />
       <Back2Top />
       <Downloads />
+      <Back2Top />
       <DevCard />
+      <Back2Top />
     </div>
   );
 };

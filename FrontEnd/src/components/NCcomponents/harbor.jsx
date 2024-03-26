@@ -13,15 +13,6 @@ const harbor = () => {
         <h2>The Harbor:</h2>
 
         <div className="card4 column">
-          <div className="rel">
-            <img src={blankBack} alt="logo background" />
-            <img
-              id="roulette"
-              className="abs float2"
-              src={anchor2}
-              alt="anchor logo"
-            />
-          </div>
           <div className="text">
             <p>
               Here, the neon lights that bled into the night sky above met their
@@ -37,10 +28,30 @@ const harbor = () => {
               harbor&apos;s oily sheen.
             </p>
           </div>
+          <div className="rel">
+            <img src={blankBack} alt="logo background" />
+            <img
+              id="roulette"
+              className="abs float2"
+              src={anchor2}
+              alt="anchor logo"
+            />
+          </div>
         </div>
 
         <div className="container">
           <div className="column">
+            <div className="left">
+              <img src={captainCutlass} alt="captain cutlass" />
+              <span className="bold">Captain "Cutlass" Kim</span> commands the
+              &quot;Full Moon,&quot; a rickety freighter that reeked more of
+              fish and desperation than luxury. Rumors swirled about her past,
+              whispers of a pirate captain on a hidden sea, though Kim herself
+              remained tight-lipped, her only confidante a talking parrot with a
+              vocabulary as foul as the harbor itself. The only constant about
+              Kim was a silver amulet that dangled from her neck, its
+              inscription an enigma even to the most skilled codebreakers.
+            </div>
             <div className="middle">
               <img
                 src={harborSingle}
@@ -66,22 +77,12 @@ const harbor = () => {
               fresh off a freighter and ready to disappear into the neon
               labyrinth of the city.
             </div>
-
-            <div className="left">
-              <img src={captainCutlass} alt="captain cutlass" />
-              <span className="bold">Captain "Cutlass" Kim</span> commands the
-              &quot;Full Moon,&quot; a rickety freighter that reeked more of
-              fish and desperation than luxury. Rumors swirled about her past,
-              whispers of a pirate captain on a hidden sea, though Kim herself
-              remained tight-lipped, her only confidante a talking parrot with a
-              vocabulary as foul as the harbor itself. The only constant about
-              Kim was a silver amulet that dangled from her neck, its
-              inscription an enigma even to the most skilled codebreakers.
-            </div>
           </div>
         </div>
 
         <article className="card column">
+          <img src={harborPic} alt="harbor" />
+
           <p>
             Neon City&apos;s harbor pulsed with a life all its own. Here, the
             rhythmic clang of industry mingled with the salty tang of the sea, a
@@ -97,7 +98,6 @@ const harbor = () => {
             shadow hides a secret, and every corner whispers a story. Just be
             careful which ones you choose to listen to.
           </p>
-          <img src={harborPic} alt="harbor" />
         </article>
       </section>
     </div>

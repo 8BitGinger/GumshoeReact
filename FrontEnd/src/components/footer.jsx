@@ -3,7 +3,7 @@ import Back2Top from './Back2Top';
 const footer = () => {
   return (
     <footer className="footer">
-      <Back2Top />
+      <p>Copyright© 2024 Ryan Fann All rights reserved </p>
     </footer>
   );
 };

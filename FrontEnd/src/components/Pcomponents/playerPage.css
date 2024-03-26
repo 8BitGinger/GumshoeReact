@@ -42,6 +42,10 @@
   align-items: center;
 }
 
+.download-btn2:active {
+  scale: 0.9;
+}
+
 .download-btn2 img {
   max-width: 75px;
 }

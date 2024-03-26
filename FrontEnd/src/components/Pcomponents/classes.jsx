@@ -1,11 +1,9 @@
-import React from 'react';
-
 const Classes = () => {
   return (
     <>
       <h3>Base Classes</h3>
 
-      <div id="classes" className="cardWide">
+      <section id="classes" className="cardWide">
         <ul className="classes">
           <div className="row">
             <h2>Class Template</h2>
@@ -220,7 +218,7 @@ const Classes = () => {
             </ol>
           </div>
         </ul>
-      </div>
+      </section>
     </>
   );
 };

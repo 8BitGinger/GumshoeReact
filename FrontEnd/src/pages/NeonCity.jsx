@@ -28,13 +28,21 @@ const NeonCity = () => {
         <NeonNav />
         <IntroCard />
         <Police />
+        <Back2Top />
         <Penrose />
+        <Back2Top />
         <Gangs />
+        <Back2Top />
         <Skylark />
+        <Back2Top />
         <Casino />
+        <Back2Top />
         <SqueakySaxophone />
+        <Back2Top />
         <Harbor />
+        <Back2Top />
         <Starlite />
+        <Back2Top />
         <TheEnd />
         <Back2Top />
       </section>

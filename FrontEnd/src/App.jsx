@@ -2,6 +2,7 @@ import './App.css';
 import { Outlet } from 'react-router-dom';
 import Navbar from './components/navbar';
 import PlayMe from './components/PlayMe';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main className="page-container">
         <Outlet />
       </main>
+      <Footer />
     </div>
   );
 }

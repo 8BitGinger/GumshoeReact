@@ -1,4 +1,3 @@
-import React from 'react';
 import mystery from '../../assets/images/mystery.jpg';
 
 const Ufo = () => {
@@ -22,7 +21,7 @@ const Ufo = () => {
           heartbroken (in the best way possible) when they finally hang up their
           Fedoras for the long night!
         </p>
-        <img src={mystery} alt="alien in fedora" />
+        <img src={mystery} alt="alien wearing fedora" />
       </article>
     </section>
   );
