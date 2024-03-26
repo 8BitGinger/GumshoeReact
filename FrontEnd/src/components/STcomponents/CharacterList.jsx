@@ -123,7 +123,7 @@ function CharacterList() {
       'A smooth-talking car salesman at Skylark Motors. They can sell ice to an Penguin and is rumored to have a side hustle dealing in "used" cars with questionable origins.',
       'The tough-as-nails owner of a boarding house that caters to drifters, down-on-their-luck sailors, and anyone with a few bucks for a bed. The boarding house is a melting pot of characters and a potential source of leads or trouble.',
       'An overzealous rookie cop with a misplaced sense of heroism. They dreams of becoming a big-shot detective but often gets in over their head due to impulsiveness.',
-      'A jittery telegraph operator with an uncanny ability to remember every message they transmit. They could be a valuable source of information for those willing to pay his price - a strong cup of coffee, a fresh paper, and a game of chess!',
+      'A jittery telegraph operator with an uncanny ability to remember every message they transmit. They could be a valuable source of information for those willing to pay the price - a strong cup of coffee, a fresh paper, and a game of chess!',
     ];
     const randomIndex = Math.floor(Math.random() * descriptions.length);
     return descriptions[randomIndex];

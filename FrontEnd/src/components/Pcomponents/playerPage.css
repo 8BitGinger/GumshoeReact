@@ -28,11 +28,11 @@
 .download-btn2 {
   width: fit-content;
   margin: 10px auto;
-  background-color: rgb(234, 233, 212);
+  background-color: rgba(234, 233, 212, 0.817);
   border-radius: 50%;
   border: 3px solid black;
   padding: 0px;
-  padding-right: 10px;
+  padding-right: 8px;
   cursor: pointer;
   font-size: 20px;
   font-family: 'abril fatface', cursive;

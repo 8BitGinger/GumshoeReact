@@ -40,9 +40,9 @@ const rustyTrombone = () => {
           <div className="column">
             <div className="left">
               <img src={popsJohnson} alt="pops johnson" />
-              <span className="bold">Pops&quot; Johnson,</span> the owner, a
-              gruff man with a heart as worn as the piano keys on stage. He knew
-              everyone who shuffled through – the heartbroken saxophonist
+              <span className="bold">&quot;Pops&quot; Johnson,</span> the owner,
+              a gruff man with a heart as worn as the piano keys on stage. He
+              knew everyone who shuffled through – the heartbroken saxophonist
               drowning his sorrows, the aspiring singer with a voice as raw as a
               diamond in the rough, and the occasional shady figure with a taste
               for the blues and a secret to keep hidden.
@@ -55,16 +55,16 @@ const rustyTrombone = () => {
                 alt="The Squeaky Saxophone Jazz Club"
               />
               <span className="bold">The Squeaky Saxophone</span> was a relic, a
-              two-story building with peeling paint and a rickety fire escape
-              clinging to its side like a forgotten dream. Dimly lit by
-              flickering bulbs and mismatched lampshades, the walls were adorned
-              with faded photographs of long-gone jazz legends, etched with the
-              bittersweet beauty of a life lived on the edge of a melody.
+              The building wasn&apos;t much to look at and sometimes, the
+              patrons were the same, but at this Jazz Club there is more than
+              meets the eye. Inside the Players can perform for tips, get
+              information about the underbelly, enjoy a nice drink, or even get
+              hired for a job.
             </div>
             <div className="right">
               <img src={band} alt="Smoky Joe Miller Band" />
               <span className="bold">
-                &quot;Smoky&quot; Joe Miller&apos;s Ragtime Renegades,
+                &quot;Smoky&quot; Joe&apos;s Ragtime Renegades,
               </span>{' '}
               occupies the dimly lit stage most nights. They were a ragtag band
               of veterans who poured their hearts and struggles into every note.

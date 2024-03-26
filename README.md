@@ -108,6 +108,7 @@ This wasn't just about a dame; it was about unraveling a conspiracy bigger than 
 
 ```
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^1.0.66",
     "dayjs": "^1.11.10",
@@ -117,12 +118,14 @@ This wasn't just about a dame; it was about unraveling a conspiracy bigger than 
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-modal": "^3.16.1",
+    "react-player": "^2.15.1",
     "react-router-dom": "^6.22.1",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.5",
     "use-sound": "^4.0.1",
     "vite": "^5.1.0"
   }
+
 ```
 
 ---
@@ -139,7 +142,7 @@ Will be adding more than just the starter adventure during future development. C
 <summary>Future Adventures:</summary>
 <br>
 
--Gumshoe Neon City Chapters 2 and 3
+- Gumshoe Neon City Chapters 2 and 3
 
 ![logo](./FrontEnd/src/assets/images/readme/neoncity-sepia.jpg)
 
@@ -183,13 +186,17 @@ Would like to add a database connection where we could do the following:
 
 #### _Character Builder_
 
-- More drop downs and static options where the calculations for your character and stats are done automatically.
-
 - Save character to your account after Database is connected
 
 #### _Player Forum_
 
 A form where users can make posts about the game and interact with stories, ideas, concepts, or theories about the games future Adventures
+
+#### _Add TailWind_
+
+Would like to remove the bloated CSS and convert the project to Tailwind
+
+Would also like to break down css by pages after modification of tailwind.
 
 ---
 
