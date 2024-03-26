@@ -12,7 +12,7 @@ const Criticals = () => {
           There are a few exceptions to a successful hit.
           <br />
           If the attacker rolls a 1, it is a critical miss and the attack not
-          only fails, but such a mishap, such as a misfiring gun or dropping
+          only fails, but also endures a mishap, such as a misfiring gun or dropping
           their knife. If the defender rolls the highest possible defense, it is
           a critical block and the attack is not only blocked or dodged, but
           they gain an Advantage Attack.

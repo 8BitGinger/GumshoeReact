@@ -1,4 +1,3 @@
-import Back2Top from './Back2Top';
 
 const footer = () => {
   return (
