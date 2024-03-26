@@ -1,10 +1,8 @@
-import React from 'react';
-
 const cheatSheet = () => {
   return (
     <section className="container" id="charBuild">
       <h3>Character Build CheatSheet</h3>
-      <div className="card column">
+      <article className="card column">
         <div className="half">
           <p>
             Easy Character Build Process <br />
@@ -65,7 +63,7 @@ const cheatSheet = () => {
             the gamble, not necessarily the reward.
           </p>
         </div>
-      </div>
+      </article>
     </section>
   );
 };

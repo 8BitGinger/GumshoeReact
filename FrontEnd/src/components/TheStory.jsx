@@ -2,7 +2,7 @@ import React from 'react';
 import PenroseHeader from './penroseHeader';
 import postCard from '../assets/images/postcard-main.jpg';
 import frank from '../assets/images/frank.jpg';
-import neonCity2 from '../assets/images/neoncity2.jpg';
+import abduction from '../assets/images/abduction.png';
 import agents2 from '../assets/images/agents2.jpg';
 import alienInvasion from '../assets/images/alien-invasion.jpg';
 import ruby from '../assets/images/ruby.jpg';
@@ -28,19 +28,16 @@ const TheStory = () => {
       </article>
       <article className="column">
         <p>
-          But whispers tell of her murder – a death she seem to have cheated
-          once before, somehow, but couldn&apos;t again. Now, amidst the crooked
-          cops and ruthless gangsters of this 1930s underworld, you arrive to
-          find yourself entangled in a mystery far stranger than you imagined.
-          Secret agents from the clandestine Penrose Division,
-          prohibition-flouting speakeasies, and the seductive thrum of jazz
-          clubs form the backdrop of your search for the truth about who killed
-          your lover and the identity of the mysterious agents following you.
+          Past whispers. A cheated death, claimed by a screaming light in the
+          dead of night. Her ghost and a flimsy postcard led you to Neon City, a
+          metropolis teeming with secrets. From the clandestine shadows of the
+          Penrose Division to the smoky jazz dives where gangsters rub elbows
+          with crooked cops, you&apos;re in deeper than you thought.
         </p>
-        <img src={frank} alt="neon city scene" />
+        <img src={abduction} alt="alien abduction" />
       </article>
       <article className="column">
-        <img src={neonCity2} alt="neon city scene" />
+        <img src={frank} alt="Frank Hodgkins" />
         <p>
           But even the city&apos;s dazzling lights can&apos;t mask the dark
           secrets it holds. Your only hope seems to be Frank Hodgkins, a haggard

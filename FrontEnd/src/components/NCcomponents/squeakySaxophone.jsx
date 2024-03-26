@@ -12,6 +12,15 @@ const rustyTrombone = () => {
         <h2>The Squeaky Saxophone:</h2>
 
         <div className="card4 column">
+          <div className="rel">
+            <img src={blankBack} alt="logo background" />
+            <img
+              id="roulette"
+              className="abs float"
+              src={jazz2}
+              alt="jazz logo"
+            />
+          </div>
           <div className="text">
             <p>
               The club itself was a relic, a two-story building with peeling
@@ -24,15 +33,6 @@ const rustyTrombone = () => {
               faces etched with the bittersweet beauty of a life lived on the
               edge of a melody.
             </p>
-          </div>
-          <div className="rel">
-            <img src={blankBack} alt="logo background" />
-            <img
-              id="roulette"
-              className="abs float"
-              src={jazz2}
-              alt="jazz logo"
-            />
           </div>
         </div>
 

@@ -77,7 +77,6 @@ const casino = () => {
         </div>
 
         <article className="card column">
-          <img src={gambling} alt="gambling" />
           <p>
             Gambling Can be handled many different ways. Here some approaches I
             have taken:
@@ -91,6 +90,7 @@ const casino = () => {
             -Real Games. You can actually get a deck of cards out, some dice, or
             even a roulette wheel. The only limit is your imagination
           </p>
+          <img src={gambling} alt="gambling" />
         </article>
       </section>
     </div>

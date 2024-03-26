@@ -1,11 +1,30 @@
-import lonelyNoir from '../../assets/images/lonely-noir.png';
+import lonelyNoir from '../../assets/images/lonely-noir.jpg';
 import neonCityDefineCity from '../../assets/images/neonCity-defineCity.png';
+import abduction from '../../assets/images/abduction.png';
+import PenroseHeader from '../penroseHeader';
 
 const theEnd = () => {
   return (
     <div>
       <section className="container">
-        <h2>The End?:</h2>
+        <h1>
+          <PenroseHeader />
+          The End?
+        </h1>
+        <h2>The Truth is...Somewhere?</h2>
+
+        <article className="card column">
+          <img src={abduction} alt="alien abducting woman from mans arms" />
+
+          <p>
+            The memory claws like a cheap suit: your girlfriend, snatched in a
+            flash of unholy light. You thought you closed the case, brought
+            justice for her. But shadows linger, questions fester. Time to put
+            the past on your back and the grindstone under your nose, detective.
+            Every clue is a step closer to the truth and one step closer to
+            danger.
+          </p>
+        </article>
 
         <article className="card column">
           <p>

@@ -3,7 +3,7 @@ import footsteps from '../../assets/images/footsteps.png';
 
 const cluePrinciples = () => {
   return (
-    <>
+    <section>
       <h3>Follow the C.L.U.E.s Principles</h3>
 
       <ul className="clue">
@@ -98,7 +98,7 @@ const cluePrinciples = () => {
           <img className="footsteps" src={footsteps} alt="footsteps" />
         </div>
       </ul>
-    </>
+    </section>
   );
 };
 

@@ -58,7 +58,7 @@ const Player = () => {
         </article>
 
         <Classes />
-
+        <Back2Top />
         <Skills />
         <Dice />
         <Back2Top />
