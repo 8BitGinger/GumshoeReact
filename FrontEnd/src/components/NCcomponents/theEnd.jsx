@@ -1,6 +1,6 @@
 import lonelyNoir from '../../assets/images/lonely-noir.jpg';
 import neonCityDefineCity from '../../assets/images/neonCity-defineCity.png';
-import abduction from '../../assets/images/abduction.png';
+import abduction from '../../assets/images/alien-invasion2.jpg';
 import PenroseHeader from '../penroseHeader';
 
 const theEnd = () => {

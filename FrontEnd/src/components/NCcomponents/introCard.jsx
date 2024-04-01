@@ -1,5 +1,6 @@
 import agents2 from '../../assets/images/agents2.jpg';
 import Player from 'react-player'; // Assuming you're using react-player
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 import videoUrl from '../../assets/video/gumshoe-3d_animation.mp4';
 
@@ -18,13 +19,14 @@ const introCard = () => {
             City Partner!
           </p>
           <div className="video-container">
-            <Player
-              className="video"
-              url={videoUrl}
-              controls={true} // Allow user control after initial playback
-              muted={true}
-              playing={true}
-            ></Player>
+            <LazyLoadComponent>
+              <Player
+                className="video"
+                url={videoUrl}
+                controls={true} // Allow user control after initial playback
+                muted={true}
+              ></Player>
+            </LazyLoadComponent>
           </div>
         </article>
       </section>
