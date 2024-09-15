@@ -45,12 +45,10 @@ const StoryTeller = () => {
           <Gameplay />
           <Back2Top />
           <NeonCity />
-
           <Ufo />
           <StoryGenerator />
           <Back2Top />
           <StDownLoads />
-
           <FutureAdventure />
           <Back2Top />
         </section>

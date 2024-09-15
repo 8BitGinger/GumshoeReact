@@ -8,6 +8,7 @@ const LeftCard = ({ image, imageAlt, content, classMod }) => {
           className={!classMod ? null : classMod}
           src={image}
           alt={imageAlt}
+          loading="lazy"
         />
       )}
       <p>{content}</p>

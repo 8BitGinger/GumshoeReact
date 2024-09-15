@@ -9,7 +9,7 @@ const BreakCardMiddleRight = ({ content1, content2, image, imageAlt }) => {
         <br />
         {content2}
       </p>
-      <img src={image} alt={imageAlt} />
+      <img src={image} alt={imageAlt} loading="lazy" />
     </article>
   );
 };

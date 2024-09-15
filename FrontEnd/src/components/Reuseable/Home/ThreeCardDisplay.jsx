@@ -16,16 +16,16 @@ const ThreeCardDisplay = ({
     <section className="container">
       <div className="column">
         <div className="left">
-          <img src={image1} alt={imageAlt1} />
+          <img src={image1} alt={imageAlt1} loading="lazy" />
           <span className="italic bold">{charName1}</span> {charDesc1}
         </div>
         <div className="middle">
-          <img src={image2} alt={imageAlt2} />
+          <img src={image2} alt={imageAlt2} loading="lazy" />
           <span className="italic bold">{charName2}</span> {charDesc2}
         </div>
 
         <div className="right">
-          <img src={image3} alt={imageAlt3} />
+          <img src={image3} alt={imageAlt3} loading="lazy" />
           <span className="italic bold">{charName3}</span> {charDesc3}
         </div>
       </div>

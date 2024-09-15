@@ -1,6 +1,6 @@
 import React, { Component, useState } from 'react';
 import { MenuItem, Menu, Icon } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import {
   LiaUserSecretSolid,
   LiaHomeSolid,
@@ -13,19 +13,24 @@ import {
   LiaToggleOnSolid,
   LiaWarehouseSolid,
 } from 'react-icons/lia';
+import { useDispatch, useSelector } from 'react-redux';
 
-const NavBar = (logged, setLogged) => {
+const NavBar = () => {
+  const dispatch = useDispatch();
+  const logged = useSelector((state) => state.auth.logged); // Assuming logged state is nested in auth slice
+  const navigate = useNavigate();
+
   const [activeItem, setActiveItem] = useState({ activeItem: 'home' });
-  const [loggedIn, setLoggedIn] = useState(false);
 
   const handleItemClick = (e, { name }) => {
     setActiveItem({ activeItem: name });
     window.scrollTo(0, 0);
   };
 
-  const logout = (e) => {
-    e.preventDefault();
-    setLoggedIn(false);
+  const logout = () => {
+    dispatch(logout());
+    // Dispatch logout action
+    navigate('/login');
   };
 
   return (
@@ -43,6 +48,7 @@ const NavBar = (logged, setLogged) => {
             >
               <LiaHomeSolid />
             </MenuItem>
+
             <MenuItem
               name="player"
               className="nav-link"
@@ -97,7 +103,7 @@ const NavBar = (logged, setLogged) => {
               <LiaEnvelopeSolid />
             </MenuItem>
 
-            {!loggedIn ? null : (
+            {!logged ? null : (
               <MenuItem
                 name="dashboard"
                 className="nav-link"
@@ -110,7 +116,7 @@ const NavBar = (logged, setLogged) => {
               </MenuItem>
             )}
 
-            {!loggedIn ? (
+            {!logged ? (
               <MenuItem
                 name="login"
                 className="nav-link"
@@ -127,6 +133,7 @@ const NavBar = (logged, setLogged) => {
                 className="nav-link"
                 onClick={logout}
                 as={Link}
+                to="/login"
               >
                 <LiaToggleOnSolid />
               </MenuItem>

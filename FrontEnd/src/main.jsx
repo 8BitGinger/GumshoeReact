@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'semantic-ui-css/semantic.min.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom/dist';
+import { Provider } from 'react-redux';
+import store from './store.js';
 
-import Player from './pages/Player';
-import StoryTeller from './pages/StoryTeller';
-import NeonCity from './pages/NeonCity';
-import DiceRoller from './pages/DiceRoller';
-import Contact from './pages/Contact';
+import Player from './pages/Player.jsx';
+import StoryTeller from './pages/StoryTeller.jsx';
+import NeonCity from './pages/NeonCity.jsx';
+import DiceRoller from './pages/DiceRoller.jsx';
+import Contact from './pages/Contact.jsx';
+import Login from './pages/Login.jsx';
+import Dashboard from './pages/Dashboard.jsx';
+import Signup from './pages/Signup.jsx';
 
 import App from './App.jsx';
 import Home from './pages/Home.jsx';
@@ -43,10 +48,24 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact />,
       },
+      {
+        path: '/login',
+        element: <Login />,
+      },
+      {
+        path: '/dashboard',
+        element: <Dashboard />,
+      },
+      {
+        path: '/signup',
+        element: <Signup />,
+      },
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+  <Provider store={store}>
+    <RouterProvider router={router} />
+  </Provider>
 );
