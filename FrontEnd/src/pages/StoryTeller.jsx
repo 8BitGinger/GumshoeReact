@@ -1,6 +1,6 @@
 import './stpage.css';
-import Clues from '../components/STcomponents/clues.jsx';
-import Combat from '../components/STcomponents/Combat.jsx';
+import Clues from '../components/STcomponents/clues';
+import Combat from '../components/STcomponents/combat';
 import Npc from '../components/STcomponents/Npc';
 import Gameplay from '../components/STcomponents/Gameplay';
 import NeonCity from '../components/STcomponents/neonRedirect.jsx';
