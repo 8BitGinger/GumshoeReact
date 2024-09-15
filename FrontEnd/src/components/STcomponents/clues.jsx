@@ -4,7 +4,7 @@ import audience from '../../assets/images/audience.jpg';
 import RightCard from '../Reuseable/Home/RightCard';
 import LeftCard from '../Reuseable/Home/LeftCard';
 
-const clues = () => {
+const Clues = () => {
   return (
     <section>
       <h3 id="clues">Clues</h3>
@@ -59,4 +59,4 @@ const clues = () => {
   );
 };
 
-export default clues;
+export default Clues;
