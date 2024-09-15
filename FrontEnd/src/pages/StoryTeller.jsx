@@ -1,5 +1,5 @@
 import './stpage.css';
-import Clues from '../components/STcomponents/Clues.jsx';
+import Clues from '../components/STcomponents/clues.jsx';
 import Combat from '../components/STcomponents/Combat.jsx';
 import Npc from '../components/STcomponents/Npc';
 import Gameplay from '../components/STcomponents/Gameplay';
