@@ -6,8 +6,10 @@ let time = dayjs().format('h:mm:ss A');
 
 function ClueHook() {
   const [clueHook, setClueHook] = useState([]);
+  const [selected, setSelected] = useState(false);
 
   const generateClueHook = () => {
+    setSelected(true);
     const newClueHook = [];
     for (let i = 0; i < 1; i++) {
       // Adjust loop count for desired number of clueHook
@@ -15,6 +17,11 @@ function ClueHook() {
       newClueHook.push({ clue });
     }
     setClueHook(newClueHook);
+  };
+
+  const refresh = () => {
+    setClueHook([]);
+    setSelected(false);
   };
 
   const generateClue = () => {
@@ -79,9 +86,15 @@ function ClueHook() {
         </ul>
       )}
 
-      <button className="btn btnGen" onClick={generateClueHook}>
-        Generate Clue
-      </button>
+      {!selected ? (
+        <button className="btn btnGen" onClick={generateClueHook}>
+          Generate Clue
+        </button>
+      ) : (
+        <button className="btn btnGen" onClick={refresh}>
+          Refresh
+        </button>
+      )}
     </div>
   );
 }

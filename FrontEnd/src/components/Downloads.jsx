@@ -1,8 +1,6 @@
 import React from 'react';
 import PenroseHeader from './penroseHeader';
-import gear from '../assets/images/gear.png';
-import charSheet from '../assets/downloads/NeonCity-CharSheet.pdf';
-import starterAdventure from '../assets/downloads/NeonCity-StarterAdventure.pdf';
+import DownloadBook from './DownloadBook';
 
 const Downloads = () => {
   return (
@@ -24,17 +22,7 @@ const Downloads = () => {
           firepower, and get ready to dive back into adventure and the neon
           abyss.
         </p>
-        <p className="col skew">
-          <img className="avatar3" src={gear} alt="1930s gear" />
-
-          <a href={charSheet} download>
-            ✓ Character Sheet
-          </a>
-
-          <a href={starterAdventure} download>
-            ✓ Starter Adventure
-          </a>
-        </p>
+        <DownloadBook />
       </article>
     </section>
   );

@@ -6,8 +6,10 @@ let time = dayjs().format('h:mm:ss A');
 
 function CharacterList() {
   const [characters, setCharacters] = useState([]);
+  const [selected, setSelected] = useState(false);
 
   const generateCharacters = () => {
+    setSelected(true);
     const newCharacters = [];
     for (let i = 0; i < 3; i++) {
       // Adjust loop count for desired number of characters
@@ -16,6 +18,11 @@ function CharacterList() {
       newCharacters.push({ name, description });
     }
     setCharacters(newCharacters);
+  };
+
+  const refresh = () => {
+    setSelected(false);
+    setCharacters([]);
   };
 
   const generateName = () => {
@@ -144,9 +151,15 @@ function CharacterList() {
         </ul>
       )}
 
-      <button className="btn btnGen" onClick={generateCharacters}>
-        Generate NPCs
-      </button>
+      {!selected ? (
+        <button className="btn btnGen" onClick={generateCharacters}>
+          Generate NPCs
+        </button>
+      ) : (
+        <button className="btn btnGen" onClick={refresh}>
+          Refresh
+        </button>
+      )}
     </div>
   );
 }

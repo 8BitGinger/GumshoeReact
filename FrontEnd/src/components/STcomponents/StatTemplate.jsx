@@ -1,3 +1,5 @@
+import StatBox from './smallChunks/StatBox';
+
 const StatTemplate = () => {
   return (
     <>
@@ -5,43 +7,52 @@ const StatTemplate = () => {
 
       <section className="cardWide">
         <div className="containerWide">
-          <div className="box2">
-            Basic NPC - HP-15. <br />
-            Attack - D4. Defense - D4. <br />
-            XP - 10.
-          </div>
-          <div className="box2">
-            Minor Enemy - HP-20. <br />
-            Attack - D6. Defense - D6. <br />
-            XP - 20.
-          </div>
-          <div className="box2">
-            Medium Enemy - HP-30. <br />
-            Attack - D8. Defense - D8. <br />
-            XP - 30.
-          </div>
-          <div className="box2">
-            Major Enemy - HP-40. <br />
-            Attack - D10. Defense - D10. <br />
-            XP - 40.
-          </div>
-          <div className="box2">
-            Minor Boss - HP-50. <br />
-            Attack - D12. Defense - D12. <br />
-            XP - 50.
-          </div>
-          <div className="box2">
-            Medium Boss - HP-70. <br />
-            Attack - D12. Defense - D12. <br />
-            XP - 70.
-          </div>
-          <div className="box2">
-            Major Boss - HP-90. <br />
-            Attack - D20. Defense - D20. <br />
-            XP - 90.
-          </div>
+          <StatBox title="Basic NPC" attack="D4" defense="D4" hp="15" xp="10" />
+          <StatBox
+            title="Minor Enemy"
+            attack="D6"
+            defense="D6"
+            hp="20"
+            xp="20"
+          />
+          <StatBox
+            title="Medium Enemy"
+            attack="D8"
+            defense="D8"
+            hp="30"
+            xp="30"
+          />
+          <StatBox
+            title="Major Enemy"
+            attack="D10"
+            defense="D10"
+            hp="40"
+            xp="40"
+          />
+          <StatBox
+            title="Minor Boss"
+            attack="D12"
+            defense="D12"
+            hp="50"
+            xp="50"
+          />
+          <StatBox
+            title="Medium Boss"
+            attack="D12"
+            defense="D12"
+            hp="70"
+            xp="70"
+          />
+          <StatBox
+            title="Major Boss"
+            attack="D20"
+            defense="D20"
+            hp="90"
+            xp="90"
+          />
           <h3>
-            HP = Health Points <br /> XP = Experience Points
+            HP = Health Points <br />
+            XP = Experience Points
           </h3>
         </div>
       </section>

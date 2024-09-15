@@ -1,15 +1,12 @@
-'use strict';
-const express = require('express');
+import express from 'express';
+
 const app = express();
-const port = process.env.port || 4444;
+const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Backend is working!');
 });
 
-app.listen(port, (err) => {
-  if (err) {
-    return console.log('Error: ', err);
-  }
-  console.log(`Server is listening on ${port}`);
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
 });

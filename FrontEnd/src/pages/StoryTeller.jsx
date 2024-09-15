@@ -11,7 +11,8 @@ import StNav from '../components/STcomponents/StNav.jsx';
 import StDownLoads from '../components/STcomponents/stDownloads';
 import PenroseHeader from '../components/penroseHeader';
 import StoryGenerator from '../components/STcomponents/storyGenerator';
-import Brandy from '../components/STcomponents/Brandy';
+import brandy from '../assets/images/whiskey.png';
+import RightCard from '../components/Reuseable/Home/RightCard.jsx';
 
 const StoryTeller = () => {
   window.scrollTo(0, 0);
@@ -26,7 +27,15 @@ const StoryTeller = () => {
           </h1>
 
           <StNav />
-          <Brandy />
+          <RightCard
+            title="Brandy and Cigars"
+            content="This Story is best enjoyed with a fine cigar and smooth cup of brandy,
+            but if you don't have any of those, try setting the scene with
+            some music.  Just click the music icon in the upper right corner if you
+            haven't already."
+            image={brandy}
+            imageAlt="aged picture of a glass of brandy and cigar"
+          />
           <Npc />
           <Back2Top />
           <Clues />
@@ -36,7 +45,7 @@ const StoryTeller = () => {
           <Gameplay />
           <Back2Top />
           <NeonCity />
-          <Back2Top />
+
           <Ufo />
           <StoryGenerator />
           <Back2Top />
