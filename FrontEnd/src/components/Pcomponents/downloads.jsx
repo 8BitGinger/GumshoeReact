@@ -1,13 +1,14 @@
 import gear from '../../assets/images/gear.png';
 import CharSheet from '../../assets/downloads/NeonCity-CharSheet.pdf';
 import documentLogoSepia2 from '../../assets/images/document-logo-sepia2.png';
+import DownloadBook from '../DownloadBook';
 
 const downloads = () => {
   return (
     <section className="container spacer spacer-top">
       <h3 id="downloads">Downloads</h3>
       <div className="row3">
-        <div className="col3">
+        {/* <div className="col3">
           <p className="card5 skew">
             <span className="intro overlay2">
               Gumshoe
@@ -17,10 +18,11 @@ const downloads = () => {
               </a>
             </span>
           </p>
-        </div>
+        </div> */}
         <div className="col3">
           <img className="logoP" src={documentLogoSepia2} alt="gumshoe logo" />{' '}
         </div>
+        <DownloadBook />
       </div>
     </section>
   );

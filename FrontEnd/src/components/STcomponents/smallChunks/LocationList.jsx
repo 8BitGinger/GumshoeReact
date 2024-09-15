@@ -7,6 +7,7 @@ console.log(time);
 
 function LocationList() {
   const [locations, setLocations] = useState([]);
+  const [selected, setSelected] = useState(false);
 
   const generateLocations = () => {
     const newLocations = [];
@@ -64,6 +65,7 @@ function LocationList() {
   };
 
   const generateDescription = () => {
+    setSelected(true);
     const descriptions = [
       'A smoky jazz club pulsating with live music and whispered secrets. Crimson velvet drapes and flickering gaslights cast long shadows over patrons nursing illicit cocktails.',
       'A salty dive bar frequented by dockworkers, sailors with stories etched on their faces, and those seeking to disappear in a haze of cheap whiskey and cigarette smoke.',
@@ -87,6 +89,11 @@ function LocationList() {
     return descriptions[randomIndex];
   };
 
+  const refresh = () => {
+    setSelected(false);
+    setLocations([]);
+  };
+
   return (
     <div className="toolCard">
       <h2>Random Locations</h2>
@@ -102,9 +109,15 @@ function LocationList() {
         </ul>
       )}
 
-      <button className="btn btnGen" onClick={generateLocations}>
-        Generate Location
-      </button>
+      {!selected ? (
+        <button className="btn btnGen" onClick={generateLocations}>
+          Generate Location
+        </button>
+      ) : (
+        <button className="btn btnGen" onClick={refresh}>
+          Refresh
+        </button>
+      )}
     </div>
   );
 }

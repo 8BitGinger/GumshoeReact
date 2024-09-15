@@ -1,9 +1,12 @@
+import SplitCard from '../Reuseable/Home/SplitCard';
+
 const cheatSheet = () => {
   return (
     <section className="container" id="charBuild">
       <h3>Character Build CheatSheet</h3>
-      <article className="card column">
-        <div className="half">
+
+      <SplitCard
+        leftHalf={
           <p>
             Easy Character Build Process <br />
             <br />
@@ -33,37 +36,39 @@ const cheatSheet = () => {
             <br />6 - Optional - Create a Character Trait or two to spice up
             your adventure and help establish motivations for future choices.
           </p>
-        </div>
-        <div className="traits half">
-          __Example Character Traits:__
-          <p>
-            <br />
-            <br />
-            • Lucky Charm: You carry a peculiar trinket (rabbit&apos;s foot,
-            chipped poker chip) that you believe brings good fortune. You
-            compulsively rub it before any risky venture.
-            <br />
-            • Neon Obsession: You&apos;re mesmerized by the city&apos;s neon
-            glow. You get lost in its colors, sometimes missing important
-            details in your surroundings.
-            <br />
-            • Walking Jukebox: You can&apos;t resist quoting song lyrics in
-            everyday situations, often to the amusement or confusion of those
-            around you.
-            <br />
-            • Fashion Faux Pas Fighter: You possess a terrible sense of style,
-            but you fiercely defend your outrageous neon outfits as artistic
-            statements.
-            <br />
-            • Paranoia Pal: You see conspiracies lurking around every corner.
-            Every shadow hides a potential foe, and every friendly smile masks a
-            hidden agenda.
-            <br />• Gambler&apos;s Spirit: You can&apos;t resist a good bet,
-            even if the odds are stacked against you. You live for the thrill of
-            the gamble, not necessarily the reward.
-          </p>
-        </div>
-      </article>
+        }
+        rightHalf={
+          <div className="traits">
+            __Example Character Traits:__
+            <p>
+              <br />
+              <br />
+              • Lucky Charm: You carry a peculiar trinket (rabbit&apos;s foot,
+              chipped poker chip) that you believe brings good fortune. You
+              compulsively rub it before any risky venture.
+              <br />
+              • Neon Obsession: You&apos;re mesmerized by the city&apos;s neon
+              glow. You get lost in its colors, sometimes missing important
+              details in your surroundings.
+              <br />
+              • Walking Jukebox: You can&apos;t resist quoting song lyrics in
+              everyday situations, often to the amusement or confusion of those
+              around you.
+              <br />
+              • Fashion Faux Pas Fighter: You possess a terrible sense of style,
+              but you fiercely defend your outrageous neon outfits as artistic
+              statements.
+              <br />
+              • Paranoia Pal: You see conspiracies lurking around every corner.
+              Every shadow hides a potential foe, and every friendly smile masks
+              a hidden agenda.
+              <br />• Gambler&apos;s Spirit: You can&apos;t resist a good bet,
+              even if the odds are stacked against you. You live for the thrill
+              of the gamble, not necessarily the reward.
+            </p>
+          </div>
+        }
+      />
     </section>
   );
 };

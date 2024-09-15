@@ -6,6 +6,7 @@ let time = dayjs().format('h:mm:ss A');
 
 function StoryHook() {
   const [storyHook, setStoryHook] = useState([]);
+  const [selected, setSelected] = useState(false);
 
   const generateStoryHook = () => {
     const newStoryHook = [];
@@ -18,6 +19,7 @@ function StoryHook() {
   };
 
   const generateStory = () => {
+    setSelected(true);
     const story = [
       'A priceless emerald necklace goes missing from a socialites private collection. The only clue: a porcelain doll with emerald eyes left at the scene. The players are hired to find the doll and the missing necklace, leading them down a rabbit hole of high society secrets and whispers of a criminal mastermind known as "The Puppeteer."',
       'A prominent businessman is found murdered aboard a grounded luxury airship docked at the Franklin Flyers hangar.  The airship, a marvel of engineering, was about to embark on its maiden voyage.  The players are tasked with finding the killer and preventing a scandal that could cripple Franklin Flyers.',
@@ -34,6 +36,11 @@ function StoryHook() {
     return story[randomIndex];
   };
 
+  const refresh = () => {
+    setStoryHook([]);
+    setSelected(false);
+  };
+
   return (
     <div className="toolCard">
       <h2>Missions</h2>
@@ -48,9 +55,15 @@ function StoryHook() {
         </ul>
       )}
 
-      <button className="btn btnGen" onClick={generateStoryHook}>
-        Generate Mission
-      </button>
+      {!selected ? (
+        <button className="btn btnGen" onClick={generateStoryHook}>
+          Generate Mission
+        </button>
+      ) : (
+        <button className="btn btnGen" onClick={refresh}>
+          Refresh
+        </button>
+      )}
     </div>
   );
 }

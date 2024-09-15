@@ -11,9 +11,14 @@ import PenroseHeader from '../components/penroseHeader';
 
 function rollDice(value) {
   const result = Math.floor(Math.random() * value + 1);
-  console.log(result);
+  // console.log(result);
+
   document.getElementById('diceRes').value = result;
   document.getElementById('resultText').innerHTML = 'D' + value + ' Result:';
+}
+
+function glowDice() {
+  document.getElementById('diceRes').classList.add('diceGlow');
 }
 
 const DiceRoller = () => {
@@ -26,14 +31,14 @@ const DiceRoller = () => {
           <PenroseHeader />
           Online Dice Roller
         </h1>
-        <div className="card3">
+        <div className="card7">
           <h2 id="resultText">Dice Result:</h2>
           <textarea disabled id="diceRes" placeholder="⚅"></textarea>
         </div>
         <div>
           <div className="card2 dice2">
             <button
-              className="box3"
+              className="box3 btn"
               onClick={(e) => {
                 setMyValue(e.target.value);
                 rollDice(4);
@@ -43,7 +48,7 @@ const DiceRoller = () => {
               <img src={d4} alt="d4 dice" />
             </button>
             <button
-              className="box3"
+              className="box3 btn"
               onClick={(e) => {
                 setMyValue(e.target.value);
                 rollDice(6);
@@ -53,7 +58,7 @@ const DiceRoller = () => {
               <img src={d6} alt="d6 dice" />
             </button>
             <button
-              className="box3"
+              className="box3 btn"
               onClick={(e) => {
                 setMyValue(e.target.value);
                 rollDice(8);
@@ -63,7 +68,7 @@ const DiceRoller = () => {
               <img src={d8} alt="d8 dice" />
             </button>
             <button
-              className="box3"
+              className="box3 btn"
               onClick={(e) => {
                 setMyValue(e.target.value);
                 rollDice(10);
@@ -73,7 +78,7 @@ const DiceRoller = () => {
               <img src={d10} alt="d10 dice" />
             </button>
             <button
-              className="box3"
+              className="box3 btn"
               name="4"
               onClick={(e) => {
                 setMyValue(e.target.value);
@@ -84,7 +89,7 @@ const DiceRoller = () => {
               <img src={d12} alt="d12 dice" />
             </button>
             <button
-              className="box3"
+              className="box3 btn"
               name="4"
               onClick={(e) => {
                 setMyValue(e.target.value);
@@ -95,7 +100,7 @@ const DiceRoller = () => {
               <img src={d20} alt="d20 dice" />
             </button>
             <button
-              className="box3"
+              className="box3 btn"
               name="4"
               onClick={(e) => {
                 setMyValue(e.target.value);
