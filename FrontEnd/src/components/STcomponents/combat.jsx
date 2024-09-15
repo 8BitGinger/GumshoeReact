@@ -11,7 +11,7 @@ import LeftCard from '../Reuseable/Home/LeftCard';
 import gear from '../../assets/images/gear.png';
 import BulletCard from '../Reuseable/Home/BulletCard';
 
-const combat = () => {
+const Combat = () => {
   return (
     <section>
       <h3 id="combat">Combat</h3>
@@ -122,4 +122,4 @@ const combat = () => {
   );
 };
 
-export default combat;
+export default Combat;
