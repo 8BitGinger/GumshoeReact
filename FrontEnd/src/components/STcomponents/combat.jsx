@@ -6,7 +6,7 @@ import critical2 from '../../assets/images/critical2.png';
 import BulletCardPicRight from '../Reuseable/Home/BulletCardPicRight';
 import RightCard from '../Reuseable/Home/RightCard';
 import death from '../../assets/images/death.png';
-import combat from '../../assets/images/combat.jpg';
+import combatPic from '../../assets/images/combat.jpg';
 import LeftCard from '../Reuseable/Home/LeftCard';
 import gear from '../../assets/images/gear.png';
 import BulletCard from '../Reuseable/Home/BulletCard';
@@ -26,7 +26,7 @@ const combat = () => {
       />
 
       <BulletCardPic
-        image={combat}
+        image={combatPic}
         imageAlt="gangsters posing with guns"
         content={[
           'Combat is based on Attack & Defense Rolls.',
