@@ -116,7 +116,7 @@ const NavBar = () => {
               </MenuItem>
             )}
 
-            {!logged ? (
+            {/* {!logged ? (
               <MenuItem
                 name="login"
                 className="nav-link"
@@ -137,7 +137,7 @@ const NavBar = () => {
               >
                 <LiaToggleOnSolid />
               </MenuItem>
-            )}
+            )} */}
           </div>
         </Menu>
       </aside>
