@@ -5,7 +5,7 @@ const AnimatedCard = ({ imageAlt, image, content1, content2, imgClass }) => {
     <div className="card4 column">
       <div className="rel">
         <img src={blankBack} alt="logo background" />
-        <img className={imgClass} src={image} alt={imageAlt} />
+        <img className={imgClass} src={image} alt={imageAlt} loading="lazy" />
       </div>
       <div className="text">
         <p>

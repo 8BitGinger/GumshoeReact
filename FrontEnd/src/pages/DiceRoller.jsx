@@ -32,7 +32,7 @@ const DiceRoller = () => {
           Online Dice Roller
         </h1>
         <div className="card7">
-          <h2 id="resultText">Dice Result:</h2>
+          <h5 id="resultText">Dice Result:</h5>
           <textarea disabled id="diceRes" placeholder="⚅"></textarea>
         </div>
         <div>

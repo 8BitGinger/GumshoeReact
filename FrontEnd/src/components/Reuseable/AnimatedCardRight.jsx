@@ -18,7 +18,7 @@ const AnimatedCardRight = ({
       </div>
       <div className="rel">
         <img src={blankBack} alt="logo background" />
-        <img className={imgClass} src={image} alt={imageAlt} />
+        <img className={imgClass} src={image} alt={imageAlt} loading="lazy" />
       </div>
     </div>
   );

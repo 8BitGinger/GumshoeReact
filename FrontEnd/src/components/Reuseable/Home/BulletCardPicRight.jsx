@@ -9,7 +9,7 @@ const BulletCardPicRight = ({ image, imageAlt, content }) => {
           </>
         ))}
       </ul>
-      <img src={image} alt={imageAlt} />
+      <img src={image} alt={imageAlt} loading="lazy" />
     </article>
   );
 };
