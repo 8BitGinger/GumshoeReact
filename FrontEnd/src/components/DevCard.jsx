@@ -13,7 +13,7 @@ const DevCard = () => {
       </h1>
       <h3>
         View My Portfolio
-        <a target="_blank" id="playerLink" href="https://ryanfann.netlify.app/">
+        <a target="_blank" id="playerLink" href="https://www.8bitginger.com/">
           Click here
         </a>
       </h3>
@@ -45,7 +45,7 @@ const DevCard = () => {
             <a target="_blank" href="https://github.com/8BitGinger/">
               <Icon className="icon2" name="github"></Icon>
             </a>
-            <a target="_blank" href="https://ryanfann.netlify.app">
+            <a target="_blank" href="https://www.8bitginger.com/">
               <Icon className="icon2" name="briefcase"></Icon>
             </a>
             <a
