@@ -24,7 +24,7 @@ const TheStory = () => {
       <RightCard
         image={abduction}
         imageAlt="alien abduction"
-        content="Past whispers. A cheated death, claimed by a screaming light in the dead of night. Her ghost and a flimsy postcard led you to Neon City, a metropolis teeming with secrets. From the clandestine shadows of the Penrose Division to the smoky jazz dives where gangsters rub elbows with crooked cops, you're in deeper than you thought."
+        content="Past whispers. A cheated death, claimed by a screaming light in the dead of night. Her ghost and a flimsy postcard led you to Neon City, a metropolis teeming with secrets. From the clandestine shadows of the Penrose Division to the smoky jazz dives where gangsters rub elbows with crooked cops, you're in deeper than you thought.  No one believed you before, but here, the extraordinary is just another Tuesday."
       />
       <LeftCard
         image={frank}
@@ -35,7 +35,7 @@ const TheStory = () => {
       <RightCard
         image={ruby}
         imageAlt="Ruby Dubois"
-        content="Another ally comes in the form of Ruby Dubois, a young, aspiring jazz singer with a voice as smooth as velvet and eyes that beamed with curiosity. Her dreams of the spotlight intertwine with yours as she too longs to unravel the mysteries that threaten to consume Neon City. Her reasons may remain unclear, but her loyalty is unwavering."
+        content="Another ally comes in the form of Ruby Dubois, a young, aspiring jazz singer with a voice as smooth as velvet and eyes that beamed with curiosity. Her dreams of the spotlight intertwine with yours as she too longs to unravel the mysteries that threaten to consume Neon City. Her reasons may remain unclear, but her loyalty seems unwavering."
       />
 
       <LeftCard
