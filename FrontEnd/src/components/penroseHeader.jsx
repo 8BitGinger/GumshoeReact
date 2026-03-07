@@ -1,5 +1,5 @@
 import React from 'react';
-import penroseTriangle from '../assets/images/penrosev1.png';
+import penroseTriangle from '../assets/images/penrosev2.png';
 
 const penroseHeader = () => {
   return (
